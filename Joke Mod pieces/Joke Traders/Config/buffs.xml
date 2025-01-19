@@ -1,0 +1,43 @@
+<configs>
+	<append xpath="/buffs">	
+		<!-- For attaching items to traders -->
+	    <buff name="buffAttachTraderRekt" hidden="true">
+	            <effect_group>
+	            <triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Vomit/vomitRadPrefab.prefab" local_offset=".1,0,-.1" local_rotation="80,60,200" parent_transform="Hips"/>
+	            <triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/MeleeWeapons_traders.unity3d?PlungerClub.prefab" local_offset="-.1,.1,0" local_rotation="150,100,0" parent_transform="RightHand"/>
+	            <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false"  parent_transform="Head" transform_path="body_mesh"/>            
+	            </effect_group>
+	    </buff>	
+	    <buff name="buffAttachTraderJen" hidden="true">
+	            <effect_group>
+	            <triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Molotov/molotov_thrownPrefab.prefab" local_offset="-.10,.1,-.04" local_rotation="170,0,0" parent_transform="LeftHand"/>
+					<requirement name="!HasAttachedPrefab" prefab="@:Other/Items/Weapons/Ranged/Molotov/molotov_thrownPrefab.prefab" parent_transform="LeftHand" />
+	            <triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="@:Other/Items/Health/painkillersPrefab.prefab" local_offset="-.10,0,-.04" local_rotation="30,0,0" parent_transform="RightHand"/>
+					<requirement name="!HasAttachedPrefab" prefab="@:Other/Items/Health/painkillersPrefab.prefab" parent_transform="RightHand" />
+	            <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false"  parent_transform="Head" transform_path="body_mesh"/>            
+	            </effect_group>
+	    </buff> 
+	    <buff name="buffAttachTraderBob" hidden="true">
+	            <effect_group>
+	            <triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/Tools_traders.unity3d?PlasticWrench.prefab" local_offset="0,0,-.2" local_rotation="90,0,0" parent_transform="Hips"/>
+					<requirement name="!HasAttachedPrefab" prefab="#@modfolder:Resources/Tools_traders.unity3d?PlasticWrench.prefab" parent_transform="Hips" />
+	            <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false"  parent_transform="Head" transform_path="body_mesh"/>            
+	            </effect_group>
+	    </buff>
+	    <buff name="buffAttachTraderJoel" hidden="true">
+	            <effect_group>
+	            <triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/MeleeWeapons_traders.unity3d?LongSword.prefab" local_offset="-.1,0,0" local_rotation="150,100,0" parent_transform="LeftHand"/>
+					<requirement name="!HasAttachedPrefab" prefab="#@modfolder:Resources/MeleeWeapons_traders.unity3d?LongSword.prefab" parent_transform="LeftHand" />
+	            <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false"  parent_transform="Head" transform_path="body_mesh"/>            
+	            </effect_group>
+	    </buff>
+	    <buff name="buffAttachTraderHugh" hidden="true">
+	            <effect_group>
+	            <triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="@:Other/Items/Crafting/Metal/IronBucketWaterPrefab.prefab" local_offset="-.1,0,.1" local_rotation="100,200,100" parent_transform="Head"/>
+					<requirement name="!HasAttachedPrefab" prefab="@:Other/Items/Crafting/Metal/IronBucketWaterPrefab.prefab" parent_transform="Head" />
+	            <triggered_effect trigger="onSelfBuffUpdate" action="SetTransformActive" active="false"  parent_transform="Head" transform_path="body_mesh"/>            
+	            </effect_group>
+	    </buff>
+		<!-- ***END trader ATTACHMENTS*** -->
+	</append>
+</configs>	

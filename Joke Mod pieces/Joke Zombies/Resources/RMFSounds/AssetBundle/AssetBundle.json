@@ -1,0 +1,640 @@
+{
+	"m_AssetBundleName": "",
+	"m_Container": {
+		"assets/1finished sounds/annoyingsound.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -597498789629230343 },
+			"m_PreloadIndex": 91,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/assetbundle.asset": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -3262397314377720126 },
+			"m_PreloadIndex": 13,
+			"m_PreloadSize": 2
+		},
+		"assets/1finished sounds/balloonswingheavy.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 1579886634331199998 },
+			"m_PreloadIndex": 10,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/balloonswinglight.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 5750861746578295938 },
+			"m_PreloadIndex": 39,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/bearitfire.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4907172278202944055 },
+			"m_PreloadIndex": 46,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/bikehorn.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 1110839469138303966 },
+			"m_PreloadIndex": 30,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/boing1.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 482748927216823871 },
+			"m_PreloadIndex": 43,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/bonecrack.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 4631421528966791574 },
+			"m_PreloadIndex": 77,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/bonk.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 1955500125446236509 },
+			"m_PreloadIndex": 16,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/bubbles.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -980413761538451327 },
+			"m_PreloadIndex": 64,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/busengine.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -2332404064508332620 },
+			"m_PreloadIndex": 98,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/catalert.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -7348734819905141214 },
+			"m_PreloadIndex": 4,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/catattack.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4608982715277314734 },
+			"m_PreloadIndex": 8,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/cathurt.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3746647602501212174 },
+			"m_PreloadIndex": 90,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/censorbeep.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 7068804476765815005 },
+			"m_PreloadIndex": 82,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/chickenapocalypse.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -8681485223168856081 },
+			"m_PreloadIndex": 61,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/coins.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -8230295468545198655 },
+			"m_PreloadIndex": 27,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/coupeaccel.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -6843490225375525903 },
+			"m_PreloadIndex": 69,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/coupemaxspeed.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 6155783847906280729 },
+			"m_PreloadIndex": 52,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/crow.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4067633298729026729 },
+			"m_PreloadIndex": 57,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/deadpoolbang.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3050516943230620852 },
+			"m_PreloadIndex": 37,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/desserteagle.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -2801060174648727402 },
+			"m_PreloadIndex": 23,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/dogdeepbark.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 7975298825908203055 },
+			"m_PreloadIndex": 86,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/doggrowl.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 2788908526577656771 },
+			"m_PreloadIndex": 97,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/elephant.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -8449878187333210678 },
+			"m_PreloadIndex": 7,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/explosion_small_2.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -2338845142451664489 },
+			"m_PreloadIndex": 60,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/explosionstock.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -7394814606561537601 },
+			"m_PreloadIndex": 79,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/fart1.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -3950037694266818593 },
+			"m_PreloadIndex": 2,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/fartingaround.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3508047381673018381 },
+			"m_PreloadIndex": 62,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/fartwet.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 4460358352174787338 },
+			"m_PreloadIndex": 100,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/fireworks.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3830459025749347376 },
+			"m_PreloadIndex": 47,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/fireworksingle.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -8984138416315580571 },
+			"m_PreloadIndex": 19,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/gimpalert.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -2547598903146811537 },
+			"m_PreloadIndex": 78,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/gimpdeath.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 722651575885437387 },
+			"m_PreloadIndex": 56,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/gimppain.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -1624275297451806523 },
+			"m_PreloadIndex": 102,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/gimproam.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 2900105766283196025 },
+			"m_PreloadIndex": 3,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/gooseroam.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4347926611046272350 },
+			"m_PreloadIndex": 0,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/grandmahowl.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -5452741596745307577 },
+			"m_PreloadIndex": 48,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/hippoattack.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -6517750301782261095 },
+			"m_PreloadIndex": 53,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/hipporoam.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -5511277976686344912 },
+			"m_PreloadIndex": 96,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/hithere.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4673915537182037014 },
+			"m_PreloadIndex": 6,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/horseneigh.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4007568915309927083 },
+			"m_PreloadIndex": 66,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/howdareyou.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 8260143405117195615 },
+			"m_PreloadIndex": 31,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/howiescream.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -2961991044784975642 },
+			"m_PreloadIndex": 72,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/kaboom.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -8960197516875113241 },
+			"m_PreloadIndex": 35,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/lasercarbine.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3984202929293796915 },
+			"m_PreloadIndex": 5,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/lasershotgun.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3201692831192574981 },
+			"m_PreloadIndex": 50,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/lasersmg.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 9076102660907894545 },
+			"m_PreloadIndex": 22,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/lookwhat.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -1783191127072541187 },
+			"m_PreloadIndex": 45,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/mac10.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -1379973404295286125 },
+			"m_PreloadIndex": 67,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/messwithbull.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3591664493685410833 },
+			"m_PreloadIndex": 36,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/mimicalert.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -6751293478167590296 },
+			"m_PreloadIndex": 11,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/mimicattack.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 1327695661412994497 },
+			"m_PreloadIndex": 65,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/mimicdeath.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3722223697876990668 },
+			"m_PreloadIndex": 93,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/mimicgiveup.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -2953965750245824225 },
+			"m_PreloadIndex": 20,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/mimicpain.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 5487371270157599493 },
+			"m_PreloadIndex": 44,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/mimicroam.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 2155102014772922200 },
+			"m_PreloadIndex": 55,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/mimicsense.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 6084240840889994355 },
+			"m_PreloadIndex": 87,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/minimifire.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 6082621581527863953 },
+			"m_PreloadIndex": 12,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/moviefart.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -6985882733660939306 },
+			"m_PreloadIndex": 58,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/noaudio.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -9120898783741904194 },
+			"m_PreloadIndex": 101,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/nope.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3951984802021715896 },
+			"m_PreloadIndex": 29,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/oldcarhorn.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 2232804662451880505 },
+			"m_PreloadIndex": 25,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/ouch.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -7234564344816902109 },
+			"m_PreloadIndex": 94,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/ouch2.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 8142855176235082126 },
+			"m_PreloadIndex": 92,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/penguinalert.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -281696790970261944 },
+			"m_PreloadIndex": 18,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/penguinattack.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 8479356083533931860 },
+			"m_PreloadIndex": 74,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/penguindeath.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -114940534619641606 },
+			"m_PreloadIndex": 88,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/penguinpain.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -3815485611805111269 },
+			"m_PreloadIndex": 40,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/penguinroam.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 382356968324914046 },
+			"m_PreloadIndex": 68,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/physicsray.wav": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -1416135675432924896 },
+			"m_PreloadIndex": 59,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/pianosneaky.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 5306059735133424555 },
+			"m_PreloadIndex": 42,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/pistolfire2.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3945007514463899151 },
+			"m_PreloadIndex": 85,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/pkmfire.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 6561548634047639332 },
+			"m_PreloadIndex": 83,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/psychoree.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 7979074916265293539 },
+			"m_PreloadIndex": 21,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/ragingdysenteryblues.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 988204664449040809 },
+			"m_PreloadIndex": 24,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/robotalert.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 1490473217895143523 },
+			"m_PreloadIndex": 95,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/robotattack.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 2123047436096741123 },
+			"m_PreloadIndex": 76,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/robotdeath.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 1393521692281432536 },
+			"m_PreloadIndex": 75,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/robotgiveup.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 4159422334691489979 },
+			"m_PreloadIndex": 9,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/robotpain.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4663067193782998866 },
+			"m_PreloadIndex": 70,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/robotroam.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 5361309308715672555 },
+			"m_PreloadIndex": 28,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/robotsense.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -7687827463142636542 },
+			"m_PreloadIndex": 38,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/rocketman.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 5211972538416643051 },
+			"m_PreloadIndex": 73,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/rocketmaxspeed.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -6053740733368017294 },
+			"m_PreloadIndex": 54,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/rocketstart.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -937619768577979728 },
+			"m_PreloadIndex": 51,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/rubberchicken.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 2832785084942140890 },
+			"m_PreloadIndex": 71,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/sadtrombone.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4613479962497099420 },
+			"m_PreloadIndex": 32,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/safe_alarm.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -9047525386498531549 },
+			"m_PreloadIndex": 63,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/singlemine.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -4180367462582192339 },
+			"m_PreloadIndex": 34,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/siren.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 7304198068146216270 },
+			"m_PreloadIndex": 84,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/slap.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -7651427219245183071 },
+			"m_PreloadIndex": 1,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/slip.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -9204636180917870395 },
+			"m_PreloadIndex": 26,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/squish.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 1827465128616499335 },
+			"m_PreloadIndex": 17,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/stomachgrowl.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 6441838940987614185 },
+			"m_PreloadIndex": 15,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/toyengine.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -1539060221098108737 },
+			"m_PreloadIndex": 81,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/winchesterfire.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 5231981848662799996 },
+			"m_PreloadIndex": 49,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/winchesterfire2.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 3936066721530601590 },
+			"m_PreloadIndex": 80,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/wolfhowling.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 1340462279052027416 },
+			"m_PreloadIndex": 89,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/wolfwhistlesilly.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -5703721161345338277 },
+			"m_PreloadIndex": 33,
+			"m_PreloadSize": 1
+		},
+		"assets/1finished sounds/zombiechickendance.mp3": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -6974870354046648836 },
+			"m_PreloadIndex": 99,
+			"m_PreloadSize": 1
+		},
+		"assets/unityassetexporter/exporter scripts/runtime/assetbundleunity3d.cs": {
+			"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": -5536425758541005520 },
+			"m_PreloadIndex": 41,
+			"m_PreloadSize": 1
+		}
+	},
+	"m_CorrespondingSourceObject": { "m_Collection": "cab-rmfsounds", "m_PathID": 0 },
+	"m_Dependencies": [
+		
+	],
+	"m_ExplicitDataLayout": 0,
+	"m_HideFlags": 0,
+	"m_IsStreamedSceneAssetBundle": false,
+	"m_MainAsset": {
+		"m_Asset": { "m_Collection": "cab-rmfsounds", "m_PathID": 0 },
+		"m_PreloadIndex": 0,
+		"m_PreloadSize": 0
+	},
+	"m_Name": "",
+	"m_PathFlags": 7,
+	"m_PrefabAsset": { "m_Collection": "cab-rmfsounds", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "cab-rmfsounds", "m_PathID": 0 },
+	"m_PreloadTable": [
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4347926611046272350 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -7651427219245183071 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -3950037694266818593 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 2900105766283196025 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -7348734819905141214 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3984202929293796915 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4673915537182037014 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -8449878187333210678 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4608982715277314734 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 4159422334691489979 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 1579886634331199998 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -6751293478167590296 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 6082621581527863953 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -5536425758541005520 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -3262397314377720126 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 6441838940987614185 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 1955500125446236509 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 1827465128616499335 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -281696790970261944 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -8984138416315580571 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -2953965750245824225 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 7979074916265293539 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 9076102660907894545 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -2801060174648727402 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 988204664449040809 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 2232804662451880505 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -9204636180917870395 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -8230295468545198655 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 5361309308715672555 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3951984802021715896 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 1110839469138303966 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 8260143405117195615 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4613479962497099420 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -5703721161345338277 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4180367462582192339 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -8960197516875113241 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3591664493685410833 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3050516943230620852 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -7687827463142636542 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 5750861746578295938 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -3815485611805111269 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -5536425758541005520 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 5306059735133424555 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 482748927216823871 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 5487371270157599493 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -1783191127072541187 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4907172278202944055 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3830459025749347376 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -5452741596745307577 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 5231981848662799996 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3201692831192574981 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -937619768577979728 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 6155783847906280729 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -6517750301782261095 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -6053740733368017294 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 2155102014772922200 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 722651575885437387 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4067633298729026729 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -6985882733660939306 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -1416135675432924896 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -2338845142451664489 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -8681485223168856081 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3508047381673018381 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -9047525386498531549 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -980413761538451327 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 1327695661412994497 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4007568915309927083 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -1379973404295286125 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 382356968324914046 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -6843490225375525903 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -4663067193782998866 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 2832785084942140890 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -2961991044784975642 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 5211972538416643051 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 8479356083533931860 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 1393521692281432536 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 2123047436096741123 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 4631421528966791574 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -2547598903146811537 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -7394814606561537601 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3936066721530601590 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -1539060221098108737 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 7068804476765815005 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 6561548634047639332 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 7304198068146216270 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3945007514463899151 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 7975298825908203055 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 6084240840889994355 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -114940534619641606 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 1340462279052027416 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3746647602501212174 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -597498789629230343 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 8142855176235082126 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 3722223697876990668 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -7234564344816902109 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 1490473217895143523 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -5511277976686344912 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 2788908526577656771 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -2332404064508332620 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -6974870354046648836 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": 4460358352174787338 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -9120898783741904194 },
+		{ "m_Collection": "cab-rmfsounds", "m_PathID": -1624275297451806523 }
+	],
+	"m_RuntimeCompatibility": 1,
+	"m_SceneHashes": {
+		
+	}
+}

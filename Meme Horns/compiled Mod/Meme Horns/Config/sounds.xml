@@ -1,0 +1,56 @@
+<config>
+	<append xpath="/Sounds">
+		<SoundDataNode name="meme_horns">
+			<AudioSource name="Sounds/AudioSource_SmallHorn"/>
+			<Noise ID="4" noise="60" time="3" heat_map_strength="0.1" heat_map_time="30"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?baby_triple.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?bing_bong.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?brain_fart.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?bruh.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?chewy.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?crackhead_kid.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?deez_nuts.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?deez_nuts_gotem.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?dramatic.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?emotional_damage.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?epic_sax.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?fox_meme.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?frog_oof.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?fuck_off.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?goat_scream.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?gotcha_bitch.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?helicopter.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?honk_honk_honk.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?inception.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?kweh.wav"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?name_jeff.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?nani.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?noice.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?omg_wow.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?run_bitch.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?sanic.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?select.wav"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?shooting_stars.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?siren.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?smoke_weed.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?step_bro.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?suck_again.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?sure_about_that.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?taco_bell.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?tac_nuke.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?turn_down.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?tututu.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?uwu.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?vader_no.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?wasted.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?why_run.mp3"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?yeet.mp3"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxEntities name="6"/>
+			<MaxRepeatRate value="0.1"/>
+		</SoundDataNode>
+	</append>
+</config>

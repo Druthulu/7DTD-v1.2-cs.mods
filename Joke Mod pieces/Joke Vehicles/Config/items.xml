@@ -1,0 +1,83 @@
+<configs>
+	<append xpath="/items">
+
+		<!-- VEHICLES -->
+
+			<item name="vehicleSciFiCarPlaceable">
+				<property name="Extends" value="vehicleMinibikePlaceable"/>
+				<property name="DescriptionKey" value="vehicleSciFiCarPlaceableDesc"/>
+				<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic,vehiclesSkill,vplow"/>
+				<property name="Meshfile" value="#@modfolder:Resources/Vehicles.unity3d?SciFiCar.prefab"/>
+				<property name="EconomicValue" value="20000"/>
+				<property name="TraderStageTemplate" value="vehicleTier4"/>
+				<property name="SellableToTrader" value="true"/>	
+				<property class="Action1">
+					<property name="Vehicle" value="vehicleSciFiCar"/>
+					<property name="VehicleSize" value="2.5, 2.1, 5"/>
+				</property>
+				<effect_group name="vehicleSciFiCarPlaceable" tiered="false">
+					<passive_effect name="ModSlots" operation="base_set" value="5"/>
+					<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+					<passive_effect name="DegradationMax" operation="base_set" value="12000"/>
+				</effect_group>
+			</item>
+
+			<item name="vehicleBuggyPlaceable">
+				<property name="Extends" value="vehicleMinibikePlaceable"/>
+				<property name="DescriptionKey" value="vehicleBuggyPlaceableDesc"/>
+				<property name="Tags" value="vehicle,vengine,vfuel,vlight,canHaveCosmetic,vehiclesSkill,vplow"/>
+				<property name="Meshfile" value="#@modfolder:Resources/Vehicles.unity3d?RacingBuggy.prefab"/>
+				<property name="EconomicValue" value="30000"/>
+				<property name="TraderStageTemplate" value="vehicleTier4"/>
+				<property class="Action1">
+					<property name="Vehicle" value="vehicleBuggy"/>
+					<property name="VehicleSize" value="2.5, 2.1, 5"/>
+				</property>
+				<effect_group name="vehicleBuggyPlaceable" tiered="false">
+					<passive_effect name="ModSlots" operation="base_set" value="4"/>
+					<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+					<passive_effect name="DegradationMax" operation="base_set" value="10000"/>
+				</effect_group>
+			</item>
+
+			<item name="vehicleBuggyChassis">
+				<property name="Extends" value="vehicleWheels"/>
+				<property name="Tags" value="vehiclesSkill"/>
+				<property name="EconomicValue" value="9000"/>
+				<property name="TraderStageTemplate" value="vehicleTier3"/>
+				<property name="UnlockedBy" value="vehicleBuggyChassisSchematic"/>
+			</item>
+
+			<item name="vehicleBuggyAccessories">
+				<property name="Extends" value="vehicleBicycleHandlebars"/>
+				<property name="Tags" value="vehiclesSkill"/>
+				<property name="EconomicValue" value="9000"/>
+				<property name="TraderStageTemplate" value="vehicleTier3"/>
+				<property name="UnlockedBy" value="vehicleBuggyAccessoriesSchematic"/>
+			</item>
+
+			<item name="vehicleSciFiCarChassis">
+				<property name="Extends" value="vehicleWheels"/>
+				<property name="Tags" value="vehiclesSkill"/>
+				<property name="DescriptionKey" value="vehicleSciFiCarChassisDesc"/>
+				<property name="EconomicValue" value="5000"/>
+				<property name="TraderStageTemplate" value="vehicleTier3"/>
+				<property name="UnlockedBy" value="vehicleSciFiCarChassisSchematic"/>
+			</item>
+
+			<item name="vehicleSciFiCarAccessories">
+				<property name="Extends" value="vehicleBicycleHandlebars"/>
+				<property name="Tags" value="vehiclesSkill"/>
+				<property name="DescriptionKey" value="vehicleSciFiCarAccessoriesDesc"/>
+				<property name="EconomicValue" value="5000"/>
+				<property name="TraderStageTemplate" value="vehicleTier3"/>
+				<property name="UnlockedBy" value="vehicleSciFiCarAccessoriesSchematic"/>
+			</item>
+
+		<!-- END OF VEHICLES -->
+
+	</append>
+</configs>
+
+
+

@@ -1,0 +1,20 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+JokeModVersionTextKey,label,JM Version,,,"Joke Mod V4.3.3",,
+
+vehicleSciFiCar,vehicles,item,,,RedstoneDad's SciFi Car,,
+
+vehicleSciFiCarPlaceable,vehicles,item,,,RedstoneDad's SciFi Car,,
+vehicleSciFiCarPlaceableDesc,vehicles,item,,,Is it from the future? Maybe. Does it really matter? Nah.\nSeats 3 (1 locked by seat mod).,,
+
+vehicleSciFiCarChassis,vehicles,item,,,RedstoneDad's SciFi Car Chassis,,
+vehicleSciFiCarChassisDesc,vehicles,item,,,Chassis needed to craft the RedstoneDad's SciFi Car.,,
+vehicleSciFiCarAccessories,vehicles,item,,,RedstoneDad's SciFi Car Accessories,,
+vehicleSciFiCarAccessoriesDesc,vehicles,item,,,Accessories needed to craft the RedstoneDad's SciFi Car.,,
+
+vehicleBuggyPlaceable,vehicles,item,,,Buggy,,
+vehicleBuggyPlaceableDesc,vehicles,item,,,All terrain buggy.\n\nSeats 3.,,
+vehicleBuggyChassis,vehicles,item,,,Buggy Chassis,,
+vehicleBuggyAccessories,vehicles,item,,,Buggy Accessories,,
+vehicleBuggy,vehicles,item,,,Buggy,,
+vehicleWheelsBad,vehicles,item,,,Bad Wheel,,
+vehicleWheelsBadDesc,vehicles,item,,,A damaged tire used in crafting vehicles. Can be repaired at a workbench.,,

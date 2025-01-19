@@ -1,0 +1,118 @@
+<tacoAntiCheat>
+
+	<!-- FEATURES -->
+		<!-- 
+			Decide which commands to secure. All enabled by default
+
+			true = rename command name
+			false = dont rename command name at all
+
+			'help' command is always secured and random, this is required for secure anti cheat 
+		-->
+
+		<secureAdmin>true</secureAdmin>
+		<secureCreativeMenu>true</secureCreativeMenu>
+		<secureChunkReset>true</secureChunkReset>
+		<secureCommandPermission>true</secureCommandPermission>
+		<secureDebugMenu>true</secureDebugMenu>
+		<secureGiveCommands>true</secureGiveCommands>
+		<secureKill>true</secureKill>
+		<secureListPlayers>true</secureListPlayers>
+		<securePermissionsAllowed>true</securePermissionsAllowed>
+		<secureBlockCommands>true</secureBlockCommands>
+		<secureRegionReset>true</secureRegionReset>
+		<secureGameSettings>true</secureGameSettings>
+		<secureTwitchCommands>true</secureTwitchCommands>
+		<secureForgeInventory>true</secureForgeInventory>
+		<secureTeleport>true</secureTeleport>
+		<secureTeleportPlayer>true</secureTeleportPlayer>
+
+	<!-- Randomize command names in memory -->
+		<!--
+			Most secure option is true, this generates random strings in memory each boot
+			Change to false to be able to know and use commands yourself, as set in CONFIG section
+		-->
+		<generateRandomCommandNames>true</generateRandomCommandNames>
+
+
+	<!-- CONFIG -->
+		<!-- 
+			Below only works if generateRandomCommandNames is false, changes command to the string of data you provide
+			Do not remove any lines, only change the value 
+			Example1: 
+				<tele>CustomTeleCommandNameHere</tele>
+			Example2:
+				<cm>onlyiknowthiscommandname</cm>
+		-->
+
+		<!-- admin command -->
+		<admin>e0te8oZ7YReCyO85pxF4aS</admin>
+
+		<!-- creative menu -->
+		<creativeMenu>4FiVctxF6RIk0PZFZyNxRM</creativeMenu>
+		<cm>4R8SD37BX3dgqypeyalAMc</cm>
+
+		<!-- chunk reset -->
+		<chunkReset>PkVFvmh28xN00TCVzIJARj</chunkReset>
+		<cr>XDK6SPHXE6BMAw4zMn47qk</cr>
+
+		<!-- comand permissions -->
+		<commandPermission>1rQze0OqX4n03PsizcgBkd</commandPermission>
+		<cp>KptWa2QGUYsPJhwJloNUaa</cp>
+
+		<!-- debug menu -->
+		<debugMenu>7xmniaEXWniowDGFtQTvuj</debugMenu>
+		<dm>LczBbxR9WAGTyEIppgmKrQ</dm>
+
+		<!-- give commands -->
+		<giveSelf>Y4QdKyNfjDQGnmzC4XOjpu</giveSelf>
+		<giveSelfXp>qaZJKUdEl8hD34Yk3Gu5ap</giveSelfXp>
+		<giveXp>T8PzBwVqdmt6pbIjBcFxAz</giveXp>
+
+		<!-- kill commands -->
+		<kill>BV1slaxBbs71Oe6Ijs5ML7</kill>
+		<killAll>fr2rftDvb0Y3hfsTk3sKEn</killAll>
+
+		<!-- list players -->
+		<listPlayers>OUbFpQI5QYtJB8PW1nQdLl</listPlayers>
+		<lp>NL3Icry8zYvwr7TuwgSl7i</lp>
+		<listPlayerIds>1M0A5Z5asDqnZocgWHrhFL</listPlayerIds>
+		<lpi>rtVMJDZJrCvSCa0qjliOID</lpi>
+
+		<!-- premission commands -->
+		<permissionsAllowed>93gktha2nJZLWl7OwHDbta</permissionsAllowed>
+		<pallowed>h6U5BwfTF3PriqPw7Gtgl1</pallowed>
+		<pa>2PTIhPhTytspIkErkxcGuR</pa>
+
+		<!-- block commands -->
+		<placeBlockRotations>3vV1DX0jj6eKvN3QUtMRYX</placeBlockRotations>
+		<pbr>BXEoyBdYW6VUhvEEJbiiM9</pbr>
+		<placeBlockShapes>QpITardtOfuog9jhopjhc4</placeBlockShapes>
+		<pbs>HHHPUITjsokcu8OFgGW1IW</pbs>
+
+		<!-- region reset commands -->
+		<regionReset>pe70D8H15oN99PE3KjRJ9T</regionReset>
+		<rr>QwVa3nMVaMzfqgQHFVLnSo</rr>
+
+		<!-- game settings commands -->
+		<setGamePref>WkMemuSs1fjIU95Abrzw8P</setGamePref>
+		<sg>0GPVrwTLHnb3tiTk6RLKlt</sg>
+		<setGameStat>Fexb6piYCwZDnSNpnoEjlv</setGameStat>
+		<sgs>HwHp0xA983EvZi1kOA4NH8</sgs>
+
+		<!-- twitch command -->
+		<twitch>KeWj7R42HKFLOvSBZwhAHk</twitch>
+
+		<!-- forge inventory command -->
+		<wsmats>KeWj7R42HKFLOvSBZwhAHk</wsmats>
+
+		<!-- teleport commands -->
+		<teleport>KxCa1ZITRKH0ABNvbBaMd4</teleport>
+		<tp>8WWXvfwoCoQ8bw2ETDFUkT</tp>
+
+		<!-- teleport player commands -->
+		<teleportPlayer>VH8fyiiUYYSUnJCM3OH3dA</teleportPlayer>
+		<tele>xDeZcmPpwWYBnQlguq0SNB</tele>
+
+	<!-- https://i.imgur.com/DQRZpvF.gif -->
+</tacoAntiCheat>

@@ -1,0 +1,42 @@
+<config>
+	<append xpath="/nav_object_classes">
+		<!-- VEHICLE SPRITES -->
+			<nav_object_class name="scificar">
+				<property name="requirement_type" value="IsVehicleOwner" />
+				<compass_settings>
+					<property name="sprite_name" value="ui_game_symbol_SciFicar"/>
+					<property name="min_distance" value="0"/>
+					<property name="max_distance" value="-1"/>
+					<property name="max_scale_distance" value="1024"/>
+					<property name="has_pulse" value="true"/>
+					<property name="icon_clamped" value="false" />
+				</compass_settings>
+				<onscreen_settings>
+					<property name="sprite_name" value="ui_game_symbol_SciFicar"/>
+					<property name="min_distance" value="0"/>
+					<property name="max_distance" value="20"/>
+					<property name="max_scale_distance" value="64"/>
+					<property name="has_pulse" value="false"/>
+				</onscreen_settings>
+			</nav_object_class>
+
+			<nav_object_class name="Buggy">
+				<property name="requirement_type" value="IsVehicleOwner" />	
+				<compass_settings>
+					<property name="sprite_name" value="ui_game_symbol_buggy"/>
+					<property name="min_distance" value="0"/>
+					<property name="max_distance" value="-1"/>
+					<property name="max_scale_distance" value="1024"/>
+					<property name="has_pulse" value="true"/>
+					<property name="icon_clamped" value="false" />
+				</compass_settings>
+				<onscreen_settings>
+					<property name="sprite_name" value="ui_game_symbol_buggy"/>
+					<property name="min_distance" value="0"/>
+					<property name="max_distance" value="20"/>
+					<property name="max_scale_distance" value="64"/>
+					<property name="has_pulse" value="false"/>
+				</onscreen_settings>
+			</nav_object_class>
+	</append>		
+</config>

@@ -1,0 +1,8 @@
+<tacotown>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@item='workbench']">
+		<unlock_entry item="IZYBlockWorkPlaceCompactDewcollector_01" unlock_tier="1" tags="IZYBlockWorkPlaceCompactDewcollector_01"/>
+	</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="IZYBlockWorkPlaceCompactDewcollector_01"/>
+	</append>
+</tacotown>	

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- TimeDilation mod settings -->
+<xml>
+	<timedilation>
+		<!-- If true, no messages will be printed to server chat.  Default: false -->
+		<silent>false</silent>
+		<!-- If true, bloodmoons will be regular time, defaults to true -->
+		<regTimeBloodMoon>true</regTimeBloodMoon>
+		<!-- Threshold values for setting half- and normal- time.   Default: thresholdHalfTime = 2; thresholdNormalTime = 3 -->
+		<!-- thresholdNormalTime must be greater than thresholdHalfTime.  Both values must be greater than 0.  If an invalid configuration is detected, default values will be used. -->
+		<thresholdHalfTime>2</thresholdHalfTime>
+		<thresholdNormalTime>3</thresholdNormalTime>
+	</timedilation>
+</xml>

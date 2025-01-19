@@ -1,0 +1,1268 @@
+<configs>
+
+	<append xpath="/entity_classes">						
+
+		<!-- ANIMALS -->
+
+		<entity_class name="animalGiantMurderChicken" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03,perkBonusCustomsDamage"/>	
+			<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?ChickenWhite" />
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="Parent" value="Animals"/>
+			<property name="Faction" value="animals"/>
+			<property name="PhysicsBody" value="chicken"/>
+			<property name="Mass" value="30"/>
+			<property name="Weight" value="70"/>
+			<property name="SoundHurt" value="Animals/Chicken/chickenpain"/>
+			<property name="SoundDeath" value="Animals/Chicken/chickendeath"/>
+			<property name="SwimOffset" value="2"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="false" />
+			<property name="CanOpenDoors" value="false"/>	
+			<property name="LootDropEntityClass" value="EntityLootContainerMurderChicken"/>
+			<property name="LootDropProb" value=".03"/>
+			<property name="UserSpawnType" value="Menu"/>	
+
+			<property name="SightRange" value="70"/>	
+			
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="Territorial"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityNPC,20"/>
+			<property name="AITask-4" value="ApproachSpot"/>
+			<property name="AITask-5" value="Look"/>
+			<property name="AITask-6" value="Wander"/>
+			<property name="AITask-7" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,20,0,EntityNPC,0,0"/>
+			<property name="AITarget-5" value=""/>
+
+
+			<!-- Gameplay -->
+			<property name="PainResistPerHit" value=".9"/>
+			<property name="MoveSpeedPanic" value="1.3"/>
+			<property name="ExperienceGain" value="130"/>
+			<property name="HandItem" value="meleeHandAnimalZombieDog"/>
+			<property name="CanClimbLadders" value="true"/>	
+			
+			<property name="DeadBodyHitPoints" value="175"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/> <!-- animalChicken -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="500"/>
+			</effect_group>
+
+			<property name="NavObject" value="animaltracking_chicken" />
+		</entity_class>
+
+		<entity_class name="animalGiantMurderChickenHordeNight" extends="animalGiantMurderChicken">	
+			<property name="LootDropEntityClass" value="EntityLootContainerMurderChicken"/>
+			<property name="LootDropProb" value=".01"/>
+			
+			<property name="DeadBodyHitPoints" value="175"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/> <!-- animalChicken -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="animalPig" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkBonusCustomsDamage"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
+			<property name="IsEntityAnimal" value="true"/>
+			<property name="IsEnemyEntity" value="false"/><!-- override hostile template setting so he can spawn in safe zones -->
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="Class" value="EntityEnemyAnimal"/>			
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="PhysicsBody" value="pig"/>
+			<property name="Mass" value="200"/>
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Pig"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="true"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<property name="SightRange" value="70"/>	
+			
+		    <property name="SoundRandom" value="Animals/Boar/boarroam"/>
+			<property name="SoundAlert" value="Animals/Boar/boaralert"/>
+			<property name="SoundHurt" value="PigPain"/>
+			<property name="SoundDeath" value="PigDeath"/>	
+			<property name="SoundAttack" value="Animals/Boar/boarattack"/>
+			<property name="SoundSense" value="Animals/Boar/boarsense"/>
+			<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
+
+				<!-- Gameplay -->
+			<property name="PainResistPerHit" value=".75"/>
+			<property name="MoveSpeed" value="0.2"/>
+			<property name="MoveSpeedAggro" value="1.3, 1.3"/>
+			<property name="MoveSpeedPanic" value="1.6"/>
+
+			<property name="HandItem" value="meleeHandAnimalWolf"/>
+			<property name="CanClimbLadders" value="true"/>	
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/> <!-- animalPig -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+			<drop event="Harvest" name="resourceAnimalFat" count="10" tag="butcherHarvest"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="250"/>
+			</effect_group>
+			
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_boar" />
+		</entity_class>
+
+		<entity_class name="animalRageCock" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,chicken,hostile,perkAT01,perkAT02,perkAT03,perkBonusCustomsDamage,ragecock,entityFlyer"/>
+			<property name="EntityFlags" value="animal,zombie"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_ragecock"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_ragecock"/> <!-- Credit for icon https://www.flaticon.com/authors/vitaly-gorbachev -->
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?ChickenBlack" />
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="Class" value="EntityVulture"/>
+			<property name="Parent" value="Animals"/>
+			<property name="Faction" value="animals"/>
+			<property name="PhysicsBody" value="chicken"/>
+			<property name="Mass" value="15"/>
+			<property name="Weight" value="10"/>
+			<property name="SoundHurt" value="Animals/Chicken/chickenpain"/>
+			<property name="SoundAlert" value="ScreamingGoat"/>	
+			<property name="SoundAttack" value="ScreamingGoat"/>	
+			<property name="SoundDeath" value="Animals/Chicken/chickendeath"/>
+			<property name="SwimOffset" value="2"/>
+			<property name="RootMotion" value="false"/>	
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="SizeScale" value="1.5"/>
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="Territorial"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityNPC,20"/>
+			<property name="AITask-4" value="ApproachSpot"/>
+			<property name="AITask-5" value="Look"/>
+			<property name="AITask-6" value="Wander"/>
+			<property name="AITask-7" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,20,0,EntityNPC,0,0"/>
+			<property name="AITarget-5" value=""/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="UserSpawnType" value="Menu"/>	
+
+			<!-- Stealth -->
+			<property name="SightRange" value="100"/>
+
+			<!-- Gameplay -->
+			<property name="MoveSpeed" value="1"/>
+			<property name="MoveSpeedAggro" value="2.1, 2.1"/> <!-- Used when player in vehicle -->
+			<property name="MaxTurnSpeed" value="190"/>
+
+			<property name="HandItem" value="meleeHandRageCock"/>
+			<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
+			<property name="MoveSpeedPanic" value="1.3"/>
+			<property name="ExperienceGain" value="130"/>
+			<property name="DeadBodyHitPoints" value="175"/>
+			<property name="CanClimbLadders" value="true"/>	
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalRageCock -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="100"/>
+			</effect_group>
+			
+			<effect_group name="Base Effects"> <!-- animalTemplateHostile -->
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffInjuryKnockdown01,buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"/>
+			</effect_group>
+
+			<property name="NavObject" value="animaltracking_chicken" />
+		</entity_class>
+
+		<entity_class name="animalCowFemale" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkBonusCustomsDamage"/>
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Cow" />	
+			<property name="MapIcon" value="ui_game_symbol_tracking_cow"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_cow"/> <!-- Credit for icon https://www.flaticon.com/authors/icongeek26 -->
+			<property name="IsEntityAnimal" value="true"/>
+			<property name="IsEnemyEntity" value="false"/> <!-- override hostile template setting so he can spawn in safe zones -->
+			<property name="AvatarController" value="AvatarAnimalController"/>		
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="PhysicsBody" value="bear"/>
+			<property name="Mass" value="200"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="false"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<property name="SightRange" value="70"/>	
+			
+			<property name="SoundRandom" value="CowRoam"/>
+			<property name="SoundAlert" value="CowAlert"/>
+			<property name="SoundHurt" value="CowPain"/>
+			<property name="SoundDeath" value="CowDeath"/>
+			<property name="SoundAttack" value="CowAttack"/>
+			<property name="SoundSense" value="CowSense"/>
+			<property name="SoundGiveUp" value="CowGiveup"/>
+			
+			<!-- Gameplay -->
+			<property name="PainResistPerHit" value=".75"/>
+			<property name="MoveSpeed" value="0.15"/>
+			<property name="MoveSpeedAggro" value="1.3, 1.3"/>
+			<property name="MoveSpeedPanic" value="1.6"/>
+			<property name="HandItem" value="meleeHandAnimalCow"/>
+			<property name="CanClimbLadders" value="true"/>	
+			
+			<property name="LootDropProb" value=".05"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerCow"/>		
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalCowFemale -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="250"/>
+			</effect_group>
+
+			<property name="NavObject" value="animaltracking_boar" />
+		</entity_class>
+
+		<entity_class name="animalCowMale" extends="animalCowFemale">
+			<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkBonusCustomsDamage"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_bull"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_bull"/> <!-- Credit for icon https://www.flaticon.com/authors/freepik -->	
+
+			<property name="SoundRandom" value="CowRoam"/>
+			<property name="SoundAlert" value="CowAlert"/>
+			<property name="SoundHurt" value="CowPain"/>
+			<property name="SoundDeath" value="CowDeath"/>
+			<property name="SoundAttack" value="CowAttack"/>
+			<property name="SoundSense" value="CowSense"/>
+			<property name="SoundGiveUp" value="CowGiveup"/>
+
+			<property name="LootDropProb" value=".05"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerCow"/>		
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="300"/>
+				
+				<triggered_effect trigger="onSelfFirstSpawn" action="ReplaceMaterial, JokeMod" target_material_name="iron_age_cattle_female" replace_material="#@modfolder:Resources/Animals.unity3d?iron_age_cattle_male_mat.prefab"/>		
+			</effect_group>	
+		</entity_class>
+
+		<entity_class name="animalCowMaleHordeNight" extends="animalCowMale">
+			<property name="Class" value="EntityEnemyAnimal"/>	
+			<property name="LootDropProb" value=".01"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerCow"/>	
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>	
+		</entity_class>
+
+		<entity_class name="animalDerpyCow" extends="animalCowFemale">
+			<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkBonusCustomsDamage"/>
+			<property name="SizeScale" value="2"/>
+			
+			<property name="SoundRandom" value="DerpyCowRoam"/>
+			<property name="SoundAlert" value="none"/>
+			<property name="SoundHurt" value="DerpyCowPain"/>
+			<property name="SoundDeath" value="DerpyCowDeath"/>
+			<property name="SoundAttack" value="DerpyCowAttack"/>
+			<property name="SoundSense" value="none"/>
+			<property name="SoundGiveUp" value="none"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<property name="LootDropProb" value=".05"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerCow"/>			
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalDerpyCow -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="250"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="joke_bigheadAnimal"/>		
+			</effect_group>
+
+			<property name="NavObject" value="animaltracking_boar" />
+		</entity_class>
+
+		<entity_class name="animalGoat" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,perkAT01,perkAT02,perkAT03,perkBonusCustomsDamage"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_goat"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_goat"/> <!-- Credit for icon https://www.flaticon.com/authors/freepik -->
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Goat" />
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="Parent" value="Animals"/>
+			<property name="Faction" value="animals"/>
+			<property name="PhysicsBody" value="wolf"/>
+			<property name="Mass" value="15"/>
+			<property name="Weight" value="10"/>
+			<property name="SwimOffset" value="2"/>
+			<property name="RootMotion" value="false"/>	
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="false"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="false"/>	
+			<property name="ParticleOnDeath" value="blood_death"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<property name="SoundSense" value="ScreamingGoat"/>	
+			<property name="SoundAttack" value="ScreamingGoat"/>	
+			<property name="SoundHurt" value="ScreamingGoat"/>
+			<property name="SoundDeath" value="Animals/stagdeath"/>	
+
+			<!-- Stealth -->
+			<property name="SightRange" value="70"/>
+
+			<!-- Gameplay -->
+			<property name="HandItem" value="meleeHandAnimalCoyote"/>
+			<property name="CanClimbLadders" value="true"/>	
+
+
+			<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
+			<property name="MoveSpeedPanic" value="1.3"/>
+			<property name="ExperienceGain" value="130"/>
+			<property name="DeadBodyHitPoints" value="175"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalGoat -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="300"/>
+			</effect_group>
+			
+			<effect_group name="Base Effects"> <!-- animalTemplateHostile -->
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffInjuryKnockdown01,buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"/>
+			</effect_group>
+
+			<property name="NavObject" value="animaltracking_wolf" />
+		</entity_class>
+				
+		<entity_class name="animalBabyBear" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,bear,perkAT03,perkBonusCustomsDamage"/>
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?BabyBear.prefab"/>	
+			<property name="MapIcon" value="ui_game_symbol_tracking_babybear"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_babybear"/> <!-- Credit for icon https://www.flaticon.com/authors/culmbio -->
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="RootMotion" value="false"/>	
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="PhysicsBody" value="bear"/>
+			<property name="Mass" value="200"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="false"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<property name="SightRange" value="70"/>	
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="DestroyArea"/>
+			<property name="AITask-3" value="Territorial"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,40,EntityPlayer,25,EntityZombie,30"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,13,8,EntityAnimalStag,0,0,EntityZombie,0,0"/>
+			<property name="AITarget-4" value=""/>
+
+			<property name="SoundHurt" value="Animals/Bear/bearpain"/>
+			<property name="SoundDeath" value="Animals/Bear/beardeath"/>
+			<property name="SoundRandom" value="Animals/Bear/bearroam"/>
+			<property name="SoundSense" value="Animals/Bear/bearsense"/>
+			<property name="SoundAlert" value="Animals/Bear/bearalert"/>
+			<property name="SoundAttack" value="Animals/Bear/bearattack"/>
+			<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+			<property name="SoundGiveUp" value="Animals/Bear/beargiveup"/>
+
+			<!-- Gameplay -->
+			<property name="PainResistPerHit" value="1"/>
+			<property name="ExperienceGain" value="750"/> <!-- XP strong -->
+			<property name="DeadBodyHitPoints" value="600"/>
+			<property name="HandItem" value="meleeHandAnimalBabyBear"/>
+			<property name="CanClimbLadders" value="true"/>	
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="450"/>
+			</effect_group>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_bear" />
+		</entity_class>
+
+		<entity_class name="animalCrocodile" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,bear,perkAT03,perkBonusCustomsDamage"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_crocodile"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_crocodile"/> <!-- Credit for icon https://www.flaticon.com/authors/culmbio -->
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="PhysicsBody" value="bear"/>
+			<property name="Mass" value="200"/>
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Crocodile.prefab"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="false"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<property name="SightRange" value="70"/>	
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="DestroyArea"/>
+			<property name="AITask-3" value="Territorial"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,40,EntityPlayer,25,EntityZombie,30"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,13,8,EntityAnimalStag,0,0,EntityZombie,0,0"/>
+			<property name="AITarget-4" value=""/>
+
+			<property name="SoundRandom" value="CrocodileRoam"/>
+			<property name="SoundAlert" value="CrocodileAlert"/>
+			<property name="SoundHurt" value="CrocodilePain"/>
+			<property name="SoundDeath" value="CrocodileDeath"/>
+			<property name="SoundAttack" value="CrocodileAttack"/>
+			<property name="SoundSense" value="CrocodileSense"/>
+			<property name="SoundGiveUp" value="CrocodileGiveup"/>
+
+			<!-- Gameplay -->
+			<property name="ExperienceGain" value="750"/> <!-- XP strong -->
+			<property name="DeadBodyHitPoints" value="600"/>
+			<property name="HandItem" value="meleeHandAnimalWolf"/>
+			<property name="CanClimbLadders" value="true"/>	
+			
+			<property name="LootDropProb" value=".07"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerCrocodile"/>	
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="45"/> <!-- animalCrocodile -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="50"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="500"/>
+			</effect_group>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_bear" />
+		</entity_class>
+
+		<entity_class name="animalCrocodileHordeNight" extends="animalCrocodile">
+			<property name="LootDropProb" value=".01"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerCrocodile"/>	
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="45"/> <!-- animalCrocodile -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="50"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="animalShark" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,bear,perkAT03,perkBonusCustomsDamage"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_shark"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_shark"/> <!-- Credit for icon https://www.flaticon.com/authors/bzzrincantation -->
+			<property name="AvatarController" value="AvatarAnimalController"/>	
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="Mass" value="200"/>
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Shark.prefab"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanClimbLadders" value="true"/>		
+			<property name="CanOpenDoors" value="false"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<property name="SightRange" value="70"/>	
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="DestroyArea"/>
+			<property name="AITask-3" value="Territorial"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,40,EntityPlayer,25,EntityZombie,30"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,13,8,EntityAnimalStag,0,0,EntityZombie,0,0"/>
+			<property name="AITarget-4" value=""/>
+
+			<property name="SoundRandom" value="SharkRoam"/>
+			<property name="SoundAlert" value="SharkAlert"/>
+			<property name="SoundHurt" value="silencefiller"/>
+			<property name="SoundDeath" value="SharkDeath"/>
+			<property name="SoundAttack" value="SharkAttack"/>
+			<property name="SoundSense" value="SharkSense"/>
+			<property name="SoundGiveUp" value="SharkGiveup"/>
+
+			<!-- Gameplay -->
+			<property name="ExperienceGain" value="750"/> <!-- XP strong -->
+			<property name="DeadBodyHitPoints" value="600"/>
+			<property name="HandItem" value="meleeHandAnimalWolf"/>
+			<property name="LootDropProb" value=".05"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerShark"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalShark -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="500"/>
+				
+				<triggered_effect trigger="onOtherDamagedSelf" action="PlaySound" sound="SharkPain" play_in_head="false" play_at_self="true">
+					<requirement name="IsAlive"/>		
+					<requirement name="HoldingItemHasTags" target="other" tags="ranged"/>
+				</triggered_effect>		
+			</effect_group>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_bear" />
+		</entity_class>
+
+		<entity_class name="animalSharkHordeNight" extends="animalShark">
+			<property name="LootDropProb" value=".01"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerShark"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalShark -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="animalGoose" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,chicken,hostile,perkAT01,perkAT02,perkAT03"/> <!-- GOOSE DOES NOT NEED THE CUSTOM DAMAGE TAG -->
+			<property name="MapIcon" value="ui_game_symbol_tracking_goose"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_goose"/> <!-- Credit for icon https://www.flaticon.com/authors/monkik -->
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Goose" />
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="Parent" value="Animals"/>
+			<property name="Faction" value="animals"/>
+			<property name="PhysicsBody" value="chicken"/>
+			<property name="Mass" value="15"/>
+			<property name="Weight" value="10"/>
+			<property name="SoundRandom" value="GooseRoam"/>
+			<property name="SoundAlert" value="GooseAlert"/>
+			<property name="SoundHurt" value="GoosePain"/>
+			<property name="SoundDeath" value="GooseDeath"/>
+			<property name="SoundAttack" value="GooseAttack"/>
+			<!-- <property name="SoundSense" value="GooseSense"/> -->
+			<property name="SoundGiveUp" value="GooseGiveup"/>
+			<property name="SwimOffset" value="2"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="false"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="true"/>
+			<property name="UserSpawnType" value="Menu"/>	
+
+			<!-- Stealth -->
+			<property name="SightRange" value="70"/>
+
+			<!-- Gameplay -->
+			<property name="HandItem" value="meleeHandAnimalCoyote"/>
+			<property name="CanClimbLadders" value="true"/>	
+
+
+			<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
+			<property name="MoveSpeedPanic" value="1.3"/>
+			<property name="ExperienceGain" value="130"/>
+			<property name="DeadBodyHitPoints" value="175"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/> <!-- animalGoose -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="150"/>
+			</effect_group>
+			
+			<effect_group name="Base Effects"> <!-- animalTemplateHostile -->
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffInjuryKnockdown01,buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"/>
+			</effect_group>
+
+			<property name="NavObject" value="animaltracking_chicken" />
+		</entity_class>
+
+		<entity_class name="animalPenguin" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,chicken,hostile,perkAT01,perkAT02,perkAT03"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_penguin"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_penguin"/> <!-- Credit for icon https://www.flaticon.com/free-icons/penguin" -->
+			<property name="Mesh" value="#@modfolder:Resources/RMFAnimals.unity3d?Penguin" />
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="Parent" value="Animals"/>
+			<property name="Faction" value="animals"/>
+			<property name="PhysicsBody" value="chicken"/>
+			<property name="Mass" value="15"/>
+			<property name="Weight" value="10"/>
+			<property name="SwimOffset" value="2"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="false"/>
+			<property name="UserSpawnType" value="Menu"/>
+			
+			<property name="SoundRandom" value="PenguinRoam"/>
+			<property name="SoundAlert" value="PenguinAlert"/>
+			<property name="SoundHurt" value="PenguinPain"/>
+			<property name="SoundDeath" value="PenguinDeath"/>
+			<property name="SoundAttack" value="PenguinAttack"/>
+			<!-- <property name="SoundSense" value="GooseSense"/> -->
+			<!-- <property name="SoundGiveUp" value="GooseGiveup"/>	-->
+
+			<!-- Stealth -->
+			<property name="SightRange" value="70"/>
+
+			<!-- Gameplay -->
+			<property name="HandItem" value="meleeHandAnimalPenguin"/>
+			<property name="CanClimbLadders" value="true"/>	
+
+
+			<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
+			<property name="MoveSpeedPanic" value="1.3"/>
+			<property name="ExperienceGain" value="100"/>
+			<property name="DeadBodyHitPoints" value="175"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/> <!-- animalGoose -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="resourceScrapPolymers" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="125"/>
+			</effect_group>
+			
+			<effect_group name="Base Effects"> <!-- animalTemplateHostile -->
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffInjuryKnockdown01,buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"/>
+			</effect_group>
+
+			<property name="NavObject" value="animaltracking_chicken" />
+		</entity_class>
+
+		<entity_class name="animalScorpionBlack" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,scorpion,perkAT03,perkBonusCustomsDamage"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_scorpion"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_scorpion"/> <!-- Credit for icon https://www.flaticon.com/authors/freepik -->
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="PhysicsBody" value="bear"/>
+			<property name="Mass" value="200"/>
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Scorpion.prefab"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanClimbLadders" value="true"/>
+			<property name="CanOpenDoors" value="false"/>
+			<property name="UserSpawnType" value="Menu"/>	
+
+			<property name="SightRange" value="70"/>	
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="DestroyArea"/>
+			<property name="AITask-3" value="Territorial"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,40,EntityPlayer,25,EntityZombie,30"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,13,8,EntityAnimalStag,0,0,EntityZombie,0,0"/>
+			<property name="AITarget-4" value=""/>
+			
+			<property name="SoundDeath" value="ScorpionDeath"/>
+
+			<!-- Gameplay -->
+			<property name="ExperienceGain" value="300"/> <!-- XP -->
+			<property name="DeadBodyHitPoints" value="250"/>
+			<property name="HandItem" value="meleeHandAnimalWolf"/>
+			<property name="LootDropProb" value=".07"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerScorpion"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/> <!-- animalScorpionBlack -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="500"/>			
+			</effect_group>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_bear" />
+		</entity_class>
+
+		<entity_class name="animalScorpionBlackHordeNight" extends="animalScorpionBlack">
+			<property name="LootDropProb" value=".01"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerScorpion"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/> <!-- animalScorpionBlack -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="animalScorpionYellow" extends="animalScorpionBlack">
+			<property name="Tags" value="entity,animal,hostile,bear,perkAT03,perkBonusCustomsDamage,scorpion"/>
+			<property name="UserSpawnType" value="Menu"/>
+
+			<property name="LootDropProb" value=".07"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerScorpion"/>	
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/> <!-- animalScorpionYellow -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="500"/>
+				
+				<triggered_effect trigger="onSelfFirstSpawn" action="ReplaceMaterial, JokeMod" target_material_name="scorpion_mat" replace_material="#@modfolder:Resources/Animals.unity3d?yellow_fattail_scorpion_mat.prefab"/>		
+			</effect_group>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_bear" />
+		</entity_class>
+
+		<entity_class name="animalScorpionYellowHordeNight" extends="animalScorpionYellow">
+			<property name="LootDropProb" value=".01"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerScorpion"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/> <!-- animalScorpionYellow -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="animalSnail" extends="animalTemplateTimid">
+			<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03,perkBonusCustomsDamage"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_snail"/> 
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_snail"/> <!-- Credit for icon https://www.flaticon.com/authors/dreamicons -->
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Snail.prefab"/>	
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>	
+			<property name="Parent" value="Animals"/>
+			<property name="Faction" value="animals"/>
+			<property name="PhysicsBody" value="rabbit"/>
+			<property name="Mass" value="12"/>
+			<property name="Weight" value="10"/>
+			<property name="SwimOffset" value="2"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanClimbLadders" value="true"/>	
+			<property name="UserSpawnType" value="Menu"/>	
+
+			<property name="AITask-1" value="RunawayWhenHurt"/>
+			<property name="AITask-2" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal;safeDistance=20"/>
+			<property name="AITask-3" value="Look"/>
+			<property name="AITask-4" value="Wander"/>
+
+			<!-- Gameplay  -->
+			<property name="MoveSpeed" value=".1"/>	
+			<property name="MoveSpeedPanic" value=".5"/>
+
+			<property name="ExperienceGain" value="130"/>
+			<property name="DeadBodyHitPoints" value="175"/>
+			
+			<property name="LootDropProb" value=".07"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerSnail"/>	
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5,10"/> <!-- animalSnail -->
+			<drop event="Harvest" name="foodRawMeat" count="2" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="100"/>
+			</effect_group>
+
+			<property name="NavObject" value="animaltracking_rabbit" />
+		</entity_class>
+
+		<entity_class name="animalRaptorBlue" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,perkAT03,perkBonusCustomsDamage,raptor"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_velociraptor"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_velociraptor"/> <!-- Credit for icon https://www.flaticon.com/authors/maxicons -->
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="PhysicsBody" value="bear"/>
+			<property name="Mass" value="200"/>
+			<property name="Mesh" value="#@modfolder:Resources/Animals.unity3d?Raptor.prefab"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="false"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<property name="SightRange" value="70"/>	
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="DestroyArea"/>
+			<property name="AITask-3" value="Territorial"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,40,EntityPlayer,70,EntityZombie,30"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,20,8,EntityAnimalStag,0,0,EntityZombie,0,0"/>
+			<property name="AITarget-4" value=""/>
+
+			<property name="SoundRandom" value="RaptorRoam"/>
+			<property name="SoundAlert" value="RaptorAlert"/>
+			<property name="SoundHurt" value="RaptorPain"/>
+			<property name="SoundDeath" value="RaptorDeath"/>
+			<property name="SoundAttack" value="RaptorAttack"/>
+			<property name="SoundSense" value="RaptorSense"/>
+			<property name="SoundGiveUp" value="RaptorGiveup"/>
+
+			<!-- Gameplay -->
+			<property name="PainResistPerHit" value="1"/>
+			<property name="ExperienceGain" value="1250"/> <!-- XP strong -->
+			<property name="DeadBodyHitPoints" value="600"/>
+			<property name="HandItem" value="meleeHandAnimalBear"/>
+			<property name="CanClimbLadders" value="true"/>	
+
+			<property name="LootDropProb" value=".08"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaptor"/>		
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalRaptorBlue -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceOil" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="3000"/>	
+			</effect_group>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_bear" />
+		</entity_class>
+
+		<entity_class name="animalRaptorBlueHordeNight" extends="animalRaptorBlue">
+			<property name="LootDropProb" value=".01"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaptor"/>		
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalRaptorBlue -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceOil" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="animalRaptorOrange" extends="animalRaptorBlue">
+			<property name="Tags" value="entity,animal,hostile,perkAT03,perkBonusCustomsDamage,raptor"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalRaptorOrange -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceOil" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Replace Material">		
+				<triggered_effect trigger="onSelfFirstSpawn" action="ReplaceMaterial, JokeMod" target_material_name="RaptorBodyBlue" replace_material="#@modfolder:Resources/Animals.unity3d?RaptorBodyOrange.prefab"/>			
+			</effect_group>	
+		</entity_class>
+
+		<entity_class name="animalRaptorOrangeHordeNight" extends="animalRaptorOrange">
+			<property name="LootDropProb" value=".01"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaptor"/>	
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalRaptorOrange -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceOil" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>	
+		</entity_class>
+
+		<!-- Tiny Mountain Lion as a House Cat -->
+		<entity_class name="animalHouseCat" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal,hostile,mountainlion,perkAT03,perkBonusCustomsDamage"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_mountain_lion"/>
+			<property name="PhysicsBody" value="MountainLion"/>
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="Class" value="EntityEnemyAnimal"/>	
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="Mass" value="125"/>
+			<property name="Mesh" value="#@modfolder:Resources/RMFAnimals.unity3d?Cat"/>
+			<property name="CanClimbLadders" value="true"/>
+			<property name="CanOpenDoors" value="true"/>
+			<property name="UserSpawnType" value="Menu"/>	
+			<property name="LookAtAngle" value="0"/>
+
+			<property name="SoundRandom" value="mlionroam"/>
+			<property name="SoundAlert" value="CatAlert"/>
+			<property name="SoundHurt" value="CatPain"/>
+			<property name="SoundDeath" value="mliondeath"/>
+			<property name="SoundAttack" value="CatAttack"/>
+			<property name="SoundSense" value="mlionsense"/>
+			<property name="SoundGiveUp" value="mliongiveup"/>
+
+			<property name="AITask-1" value="Leap" data="legs=4"/>
+			<property name="AITask-2" value="BreakBlock"/>
+			<property name="AITask-3" value="Territorial"/>
+			<property name="AITask-4" value="RunawayWhenHurt" data="runChance=.4;healthPer=.1;healthPerMax=.4"/>
+			<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,30,EntityPlayer,15,EntityZombie,20"/>
+			<property name="AITask-6" value="ApproachSpot"/>
+			<property name="AITask-7" value="Look"/>
+			<property name="AITask-8" value="Wander"/>
+			<property name="AITask-9" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,9,EntityAnimalStag,0,0,EntityZombie,0,5"/>
+			<property name="AITarget-4" value=""/>
+
+			<!-- Gameplay  -->
+			<property name="MoveSpeed" value=".6"/>
+			<property name="MoveSpeedAggro" value="2.1, 2.3"/>
+			<property name="JumpDelay" value=".1"/>
+			<property name="JumpMaxDistance" value="6, 7"/>
+			<property name="PainResistPerHit" value=".6"/>
+			
+			<property name="HandItem" value="meleeHandAnimalHouseCat"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="6"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="225"/>
+			</effect_group>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_mountainlion" />
+		</entity_class>
+
+		<!-- *** HIPPOPOTAMUS -->
+		<entity_class name="animalHippo" extends="animalTemplateHostile">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,animal,hostile,bear,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/RMFAnimals.unity3d?Hippopotamus2"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_hippo"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_hippo"/> <!-- Credit for symbol https://www.flaticon.com/free-icons/hippo -->
+			<property name="IsEntityAnimal" value="true"/>
+			<property name="IsEnemyEntity" value="true"/>
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="Class" value="EntityEnemyAnimal"/>	
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="PhysicsBody" value="bear"/>
+			<property name="Mass" value="600"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="false"/>
+			<property name="SightRange" value="70"/>
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="DestroyArea"/>
+			<property name="AITask-3" value="Territorial"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalStag,20,EntityZombie,20"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,8,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityZombie,0,-8"/>
+			<property name="AITarget-4" value=""/>
+			
+			<property name="SoundHurt" value="Animals/Bear/bearpain"/>
+			<property name="SoundDeath" value="Animals/Bear/beardeath"/>
+			<property name="SoundRandom" value="HippoRoam"/>
+			<property name="SoundSense" value="Animals/Bear/bearsense"/>
+			<property name="SoundAlert" value="Animals/Bear/bearalert"/>
+			<property name="SoundAttack" value="HippoAttack"/>
+			<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+			<property name="SoundGiveUp" value="Animals/Bear/beargiveup"/>
+
+			<!-- Gameplay  -->
+			<property name="PainResistPerHit" value="1"/>
+			<property name="ExperienceGain" value="850"/><!-- XP strong -->
+			<property name="DeadBodyHitPoints" value="600"/>
+			<property name="MoveSpeed" value=".3"/>
+			<property name="MoveSpeedAggro" value="1.15, 1.2"/>
+			<property name="MoveSpeedPanic" value="1.6"/>
+			<property name="SwimSpeed" value="2"/>
+			<property name="SwimStrokeRate" value="1.1,1.5"/>
+			<property name="HandItem" value="meleeHandAnimalHippo"/>
+			<property name="CanClimbLadders" value="true"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1800"/>
+			</effect_group>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_bear" />
+		</entity_class>
+
+		<!-- *** MIMIC -->
+		<entity_class name="animalMimic" extends="animalTemplateHostile">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,animal,hostile,wolf,perkAT02,perkAT03"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_mimic"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_mimic"/> <!-- Credit for icon https://www.flaticon.com/free-icons/chest -->
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="IsEntityAnimal" value="true"/>
+			<property name="IsEnemyEntity" value="true"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="Class" value="EntityEnemyAnimal"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="PhysicsBody" value="wolf"/>
+			<property name="Mass" value="110"/>
+			<property name="Mesh" value="#@modfolder:Resources/RMFAnimals.unity3d?MimicLarge"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="CanBigHead" value="true" />
+			<property name="CanOpenDoors" value="false"/>
+			<property name="SightRange" value="70"/>
+			
+			<property name="LootDropEntityClass" value="EntityLootContainerMimic"/>
+			<property name="LootDropProb" value="1"/>
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="Territorial"/>
+			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalStag,20,EntityZombie,20"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,8,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityZombie,0,-8"/>
+			<property name="AITarget-4" value=""/>
+			
+			<property name="SoundRandom" value="MimicRoam"/>
+			<property name="SoundAlert" value="MimicAlert"/>
+			<property name="SoundHurt" value="MimicPain"/>
+			<property name="SoundDeath" value="MimicDeath"/>
+			<property name="SoundAttack" value="MimicAttack"/>
+			<property name="SoundSense" value="MimicSense"/>
+			<property name="SoundGiveUp" value="MimicGiveup"/>
+
+			<!-- Stealth -->
+			<property name="SmellAlertThreshold" value="5"/>
+
+			<!-- Gameplay  -->
+			<property name="HandItem" value="meleeHandAnimalMimic"/>
+			<property name="ExperienceGain" value="850"/><!-- XP strong -->
+			<property name="DeadBodyHitPoints" value="600"/>
+			<property name="MoveSpeed" value="0.2"/>
+			<property name="MoveSpeedAggro" value="1, 1.1"/>
+			<property name="MoveSpeedPanic" value="1.6"/>
+			<property name="CanClimbLadders" value="true"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1500"/>
+			</effect_group>
+
+			<drop event="Harvest" name="resourceGore" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="resourceGore" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceScrapIron" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceGore" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,ui_game_symbol_tracking_mimic" />
+		</entity_class>
+
+	</append>
+</configs>

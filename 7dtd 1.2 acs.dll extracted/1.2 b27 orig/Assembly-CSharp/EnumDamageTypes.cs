@@ -1,0 +1,35 @@
+﻿using System;
+
+public enum EnumDamageTypes
+{
+	None,
+	Piercing,
+	Slashing,
+	Bashing,
+	Crushing,
+	Corrosive,
+	Heat,
+	Cold,
+	Radiation,
+	Toxic,
+	Electrical,
+	Disease,
+	Infection,
+	Starvation,
+	Dehydration,
+	Falling,
+	Suffocation,
+	BloodLoss,
+	Sprain,
+	Break,
+	Stun,
+	Concuss,
+	KnockOut,
+	BlackOut,
+	KnockDown,
+	BarbedWire,
+	Suicide,
+	VehicleInside,
+	Special,
+	COUNT
+}

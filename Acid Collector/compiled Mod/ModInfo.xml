@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="AcidCollector" />
+	<DisplayName value="Acid Collector" />
+	<Description value="Acid collector to collect acid rain once tools installed" />
+	<Author value="McTaco. model by IZY" />
+	<Version value="1.2.27.1" />
+	<Website value="https://i.imgur.com/DQRZpvF.gif" />
+</xml>

@@ -1,0 +1,10 @@
+<tacoAntiCheat>
+     <remove xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']"/>
+     <remove xpath="/lootcontainers/lootgroup[@name='weaponTestLoot']"/>
+     <remove xpath="/lootcontainers/lootgroup[@name='toolTestLoot']"/>
+     <remove xpath="/lootcontainers/lootgroup[@name='groupTESTITEMS']"/>
+     <remove xpath="/lootcontainers/lootcontainer[@name='prefabEditorBox']"/>
+     <remove xpath="/lootcontainers/lootcontainer[@name='weaponTestLoot']"/>
+     <remove xpath="/lootcontainers/lootcontainer[@name='toolTestLoot']"/>
+     <remove xpath="/lootcontainers/lootcontainer[@name='testItemsLoot']"/>
+</tacoAntiCheat>

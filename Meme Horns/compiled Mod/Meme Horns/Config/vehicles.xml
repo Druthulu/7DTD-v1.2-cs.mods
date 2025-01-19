@@ -1,0 +1,12 @@
+<config>
+	<!-- Default vehicles-->
+	<!-- 
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hornSound']/@value">meme_horns</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hornSound']/@value">meme_horns</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hornSound']/@value">meme_horns</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='hornSound']/@value">meme_horns</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='hornSound']/@value">meme_horns</set> 
+	-->
+	<!-- All possible vehicles-->
+	<set xpath="/vehicles/vehicle/property[@name='hornSound']/@value">meme_horns</set>
+</config>

@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5536425758541005520
+  },
+  "m_Name": "AssetBundle",
+  "Path": "..\\..\\..\\Joke Mod\\A20 Files\\Version 4\\7 Days To Die\\Mods\\Joke Mod\\Resources\\RMFSounds.unity3d",
+  "IncludeAssetsFromFolders": 1,
+  "SearchFoldersRecursively": 1,
+  "CreateDeterministicAssetBundle": 1,
+  "AppendHashToAssetBundleName": 0,
+  "Compression": 1,
+  "VerboseLogging": 0,
+  "Objects": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  ]
+}

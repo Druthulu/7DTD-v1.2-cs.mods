@@ -1,0 +1,349 @@
+<!-- Need to review more, not functional as is. 
+	currently it removes egroups and replaces them,
+	need to analyze the impact of this
+
+	possible to run this mod first and all other mods will apend this
+
+	need to compare against vanilla and assertain changes made by this mod and if its OP
+
+
+	Also notice the egroups for animals, there is a percentage and we need to match the existing replacement.
+
+	perhaps combine the egroup animal adjustmets together. -->
+
+<configs>
+
+	<!-- ***ANIMAL SPAWNS*** -->
+	<append xpath="/entitygroups/entitygroup[@name='ZombieFarmGroup']">	
+		animalPig
+		animalGoose	
+		animalCowFemale
+		animalCowMale
+		animalDerpyCow		
+		animalCrocodile
+		animalHouseCat
+		animalGoat		
+		animalHippo		
+	</append>
+
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForest']">	
+		animalGoose, 7
+		animalSnail, 4
+		animalPig, 6
+		animalCowFemale, 6
+		animalDerpyCow, 5
+		animalGoat, 4
+		animalPenguin, 4		
+
+		animalDoe, 5
+		animalStag, 5		
+		animalRabbit, 5
+		animalChicken, 5
+		none, 42
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='WildGameForestNight']">	
+		animalGoose, 10
+		animalSnail, 8
+		animalPig, 5
+		animalHouseCat, 10
+		animalPenguin, 4		
+		
+		animalDoe, 6
+		animalStag, 6
+		animalRabbit, 4
+		animalChicken, 4
+		none, 43
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']">	
+		animalBabyBear, 5
+		animalGummyBearYellow, 3
+		animalGummyBearRed, 3
+		animalGummyBearBlue, 3
+		animalGummyBearOrange, 3
+		animalGummyBearPurple, 3
+		animalGummyBearBlack, 3
+		animalGummyBearGreen, 3
+		animalGummyBearPink, 3
+		animalGiantMurderChicken, 10
+		animalCrocodile, 8
+		animalShark, 3
+		animalHouseCat, 10	
+
+		animalSnake, 10
+		none, 30		
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestAny']">	
+		animalCowMale, 10
+		animalBabyBear, 10
+		animalGiantMurderChicken, 5
+		animalKillerBunny, 5	
+		animalHippo, 5	
+
+		animalSnake, 15
+		animalBoar, 10
+		none, 40
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForestNight']">	
+		animalCowMale, 10
+		animalBabyBear, 10
+		animalGiantMurderChicken, 5
+		animalKillerBunny, 5	
+		animalHippo, 5
+
+		animalZombieVulture, 15
+		animalCoyote, 10
+		none, 85		
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']">	
+		animalRageCock, 5
+		animalScorpionYellow, 5
+		animalScorpionBlack, 5	
+		animalCowMale, 5
+		animalGoat, 10
+		animalPenguin, 15
+		
+		animalCoyote, 10
+		animalZombieVulture, 10
+		animalSnake, 10
+		none, 25
+	</set>	
+
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesertNight']">	
+		animalScorpionYellow, 10 
+		animalScorpionBlack, 10
+		animalRageCock, 10	
+		animalCowMale, 5
+		animalGoat, 5
+		
+		animalBoar, 5
+		animalWolf, 10
+		animalMountainLion, 5
+		animalZombieVulture, 15
+		none, 25
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']">	
+		animalShark, 7
+		animalGummyBearYellow, 3
+		animalGummyBearRed, 3
+		animalGummyBearBlue, 3
+		animalGummyBearOrange, 3
+		animalGummyBearPurple, 3
+		animalGummyBearLightBlue, 3
+		animalGummyBearBlack, 3
+		animalGummyBearGreen, 3
+		animalGummyBearPink, 3
+		animalHippo, 7
+		
+		animalMountainLion, 10
+		animalWolf, 5
+		animalBear, 5
+		animalBearSmall, 5
+		none, 33
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnowNight']">	
+		animalShark, 4
+		animalGummyBearYellow, 5
+		animalGummyBearRed, 5
+		animalGummyBearBlue, 5
+		animalGummyBearOrange, 5
+		animalGummyBearPurple, 5
+		animalGummyBearLightBlue, 5
+		animalGummyBearBlack, 5
+		animalGummyBearGreen, 5
+		animalGummyBearPink, 5
+		animalHippo, 5
+
+		animalDireWolf, 5
+		animalZombieDog, 5
+		none, 36
+	</set>	
+
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">	
+		animalScorpionBlack, 5
+		animalGummyBearYellow, 6
+		animalGummyBearRed, 6
+		animalGummyBearBlue, 6
+		animalGummyBearOrange, 6
+		animalGummyBearPurple, 6
+		animalGummyBearBlack, 6
+		animalGummyBearGreen, 6
+		animalGummyBearPink, 6
+		animalBabyBear, 5
+		animalKillerBunny, 4
+	    animalRaptorBlue, 7
+	    animalRaptorOrange, 7
+		animalDemonicFlappyBird, 4
+		animalHippo, 6		
+
+		animalSnake, 0	
+		animalBear, 0		
+		animalZombieVulture, 5
+		animalZombieDog, 5
+		animalZombieBear, 4
+		animalBearSmall, 0
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWastelandNight']">	
+		animalScorpionBlack, 5
+		animalRageCock, 4
+		animalGummyBearYellow, 5
+		animalGummyBearRed, 5
+		animalGummyBearBlue, 5
+		animalGummyBearOrange, 5
+		animalGummyBearPurple, 5
+		animalGummyBearBlack, 5
+		animalGummyBearGreen, 5
+		animalGummyBearPink, 5
+		animalBabyBear, 5
+		animalKillerBunny, 4
+		animalDemonicFlappyBird, 4
+	    animalRaptorBlue, 8
+	    animalRaptorOrange, 8
+		animalHippo, 5	
+
+		animalDireWolf, 5
+		animalZombieBear, 6
+		animalZombieDog, 6
+		none, 60		
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='ZombieDogGroup']">
+		animalZombieDog
+		animalCrocodile
+		animalHouseCat
+	</set>	
+
+	<set xpath="/entitygroups/entitygroup[@name='WolfGroup']">
+		animalWolf
+		animalBabyBear
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='VultureGroup']">
+		animalZombieVulture
+		animalRageCock
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='BoarGroup']">
+		animalBoar
+		animalPig
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='GraceGroup']">
+		animalBossGrace
+		animalGiantMurderChicken
+		animalRaptorBlue
+		animalRaptorOrange
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='BearGroup']">
+		animalBear
+		animalBabyBear
+		animalGummyBearYellow
+		animalGummyBearRed
+		animalGummyBearBlue
+		animalGummyBearOrange
+		animalGummyBearPurple
+		animalGummyBearBlack
+		animalGummyBearGreen
+		animalGummyBearPink
+		animalHippo
+	</set>	
+
+	<set xpath="/entitygroups/entitygroup[@name='BearSmallGroup']">
+		animalBearSmall
+		animalBabyBear
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='ChickenGroup']">	
+		animalChicken
+		animalGoose
+		animalPenguin		
+	</set>
+
+	<append xpath="/entitygroups/entitygroup[@name='RabbitGroup']">	
+		animalRabbit
+		animalGoose
+		animalPenguin	
+	</append>	
+	
+
+
+	<set xpath="/entitygroups/entitygroup[@name='animalBear']">	
+		animalBear
+		animalBabyBear
+		animalGummyBearYellow
+		animalGummyBearRed
+		animalGummyBearBlue
+		animalGummyBearOrange
+		animalGummyBearPurple
+		animalGummyBearBlack
+		animalGummyBearGreen
+		animalGummyBearPink
+		animalHippo		
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='animalBoar']">	
+		animalBoar
+		animalPig	
+	</set>
+
+	<set xpath="/entitygroups/entitygroup[@name='animalBossGrace']">	
+		animalBossGrace
+		animalGiantMurderChicken
+	    animalRaptorBlue
+	    animalRaptorOrange
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='animalWolf']">	
+		animalWolf
+		animalCowMale
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='animalZombieDog']">
+		animalZombieDog
+		animalCrocodile
+		animalHouseCat
+	</set>	
+	
+	<set xpath="/entitygroups/entitygroup[@name='animalZombieVulture']">	
+		animalZombieVulture
+		animalRageCock
+	</set>	
+
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombieAnimalsGroup']">	
+		<entity name="animalCrocodile"  prob="0.5"/>
+		<entity name="animalBabyBear"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='WildGameForest']">	
+		<entity name="animalStag"  prob="0.15"/>
+		<entity name="animalDoe" prob="0.25"/>
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='WildGameForestNight']">	
+		<entity name="animalStag"  prob="0.1"/>
+		<entity name="animalHippo" prob="0.05"/>
+	</append>
+
+	<append xpath="/entitygroups">	
+
+		<!-- CUSTOM POI SPAWNERS -->
+		<entitygroup name="JokeZombieBosses">
+		<entity name="zombieCrawlerGiantBoss"/>
+	</entitygroup>
+	
+		<entitygroup name="JokeCats">
+		<entity name="animalHouseCat"/>
+		<entity name="animalMountainLion"/>
+	</entitygroup>
+		
+	</append>	
+</configs>

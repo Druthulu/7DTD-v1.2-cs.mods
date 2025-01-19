@@ -1,0 +1,8 @@
+<tacoAntiCheat>
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunButtkick3000']" />
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunButtkick4000']" />
+	<remove xpath="/item_modifiers/item_modifier[@name='modMeleeGunToolDecapitizer']" />
+	<remove xpath="/item_modifiers/item_modifier[@name='modArmorJumpJets']" />
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunBowAdminArcheryReloadRecovery']" />
+	<remove xpath="/item_modifiers/item_modifier[@name='modArmorAdminToughGuyShirt']" />
+</tacoAntiCheat>

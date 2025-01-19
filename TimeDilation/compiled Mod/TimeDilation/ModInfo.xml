@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+	<Name value="TimeDilation"/>
+	<DisplayName value="TimeDilation"/>
+	<Description value="Dilates and speeds up game time depending on the number of connected players."/>
+	<Author value="Elengale"/>
+	<Version value="1.0"/>
+	<Website value=""/>
+	<SkipWithAntiCheat value="true"/>
+</xml>

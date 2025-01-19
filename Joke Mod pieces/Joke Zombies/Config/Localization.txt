@@ -1,0 +1,22 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+JokeModVersionTextKey,label,JM Version,,,"Joke Mod V4.3.3",,
+
+zombieMegaKaren,entityclasses,Entity,,,Mega Karen,,
+
+
+zombieRizCoRobotOne,entityclasses,Entity,,,Seriously A Robot,,
+zombieRizCoRobotTwo,entityclasses,Entity,,,RizCo Mark II Robot,,
+zombieLittleCreeper,entityclasses,Entity,,,Little Creeper,,
+zombieLittleCreeperFeral,entityclasses,Entity,,,Little Creeper Feral,,
+
+zombieJoeSpotlight,entityclasses,Entity,,,Spotlight Joe,,
+zombieUtilityConehead,entityclasses,Entity,,,Shamed Zombie,,
+zombieRizCoRobotOne,entityclasses,Entity,,,RizCo Robot Mark I,,
+zombieRizCoRobotTwo,entityclasses,Entity,,,RizCo Robot Mark II,,
+zombieLittleBoneSkeleton,entityclasses,Entity,,,Little Bone,,
+
+zombieCrawlerGiantBoss,entityclasses,Entity,,,Captain Dan (Stronk),,
+
+
+zombieCrawlerGiantBossHordeNight,entityclasses,Entity,,,Captain Dan (Stronk),,
+ttResurrectMaxXPLost,UI,Tooltip,,,Have you tried not dying?,,

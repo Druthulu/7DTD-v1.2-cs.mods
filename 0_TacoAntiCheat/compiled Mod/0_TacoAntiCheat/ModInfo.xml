@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="0_TacoAntiCheat" />
+	<DisplayName value="0 Taco Anti Cheat" />
+	<Description value="Remove Abusable commands from client use" />
+	<Author value="McTaco" />
+	<Version value="1.2.27.0" />
+	<Website value="https://i.imgur.com/DQRZpvF.gif" />
+</xml>
