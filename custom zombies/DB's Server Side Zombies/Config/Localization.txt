@@ -1,0 +1,4 @@
+Key,english
+
+zombieGhostQueen,Ghost Queen
+animalHellHound,Hell Hound

@@ -1,0 +1,14 @@
+<tacotown>
+	<!-- Append DKs week mod effects to include more fun stuff-->
+	<append xpath="/buffs/buff[name=buffDrugSmokedJoint]">
+		<effect_group>
+			<!-- Add smoke to puffing-->
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_smokePuff" />
+			<!-- play sound , change to coughing or bong later -->
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="#@modfolder:Resources/memeSounds.unity3d?smoke_weed.mp3"/>
+			<!-- knock you down -->
+			<triggered_effect trigger="onSelfBuffStart" action="Ragdoll" target="other" duration=".2" force="200"/>
+
+			</effect_group>
+	</append>
+</tacotown>
