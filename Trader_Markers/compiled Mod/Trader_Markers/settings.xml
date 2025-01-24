@@ -1,0 +1,19 @@
+<tacoTraderMarkers>
+
+		<!-- 
+			Default: true
+				Restrict trader markers to reaveled map only 
+				This means traders that you have not found, will not appear.
+			Optional:
+				If you want all traders to appear even areas you have not explored
+				use 'false'
+		-->
+		
+		<restrictTradersToMap>true</restrictTradersToMap>
+
+
+		<!-- for Debug only, dont use, very noisy -->
+		<verboseLogging>false</verboseLogging>
+		
+	<!-- https://i.imgur.com/DQRZpvF.gif -->
+</tacoTraderMarkers>

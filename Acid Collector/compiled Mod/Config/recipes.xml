@@ -1,9 +1,0 @@
-<tacotown>
-	<append xpath="/recipes">
-		<recipe name="IZYBlockWorkPlaceCompactDewcollector_01" count="1" tags="learnable,workbenchCrafting">
-			<ingredient name="resourceScrapPolymers" count="75"/>
-			<ingredient name="resourceMetalPipe" count="4"/>
-			<ingredient name="resourceDuctTape" count="3"/>
-		</recipe>
-	</append>
-</tacotown>

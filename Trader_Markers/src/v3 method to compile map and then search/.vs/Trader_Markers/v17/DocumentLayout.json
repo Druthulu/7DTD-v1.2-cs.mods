@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Trader_Markers\\src\\v3 method to compile map and then search\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDB8971-57C9-4494-A993-F2B9BD048A01}|Trader_Markers.csproj|c:\\users\\user\\desktop\\trader_markers\\src\\v3 method to compile map and then search\\trader_markers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDB8971-57C9-4494-A993-F2B9BD048A01}|Trader_Markers.csproj|solutionrelative:trader_markers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Trader_Markers||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trader_Markers",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Trader_Markers\\src\\v3 method to compile map and then search\\Trader_Markers.csproj",
+              "RelativeDocumentMoniker": "Trader_Markers.csproj",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Trader_Markers\\src\\v3 method to compile map and then search\\Trader_Markers.csproj",
+              "RelativeToolTip": "Trader_Markers.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-21T03:41:15.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trader_Markers.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Trader_Markers\\src\\v3 method to compile map and then search\\Trader_Markers.cs",
+              "RelativeDocumentMoniker": "Trader_Markers.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Trader_Markers\\src\\v3 method to compile map and then search\\Trader_Markers.cs",
+              "RelativeToolTip": "Trader_Markers.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAQwJIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T07:09:30.276Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

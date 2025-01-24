@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+Acid_Collector,items,gun,,Acid Collector,Acid Collector,,,,,,,,,,,,,,
+Acid_CollectorDesc,items,gun,,,An acid collector will produce acid slowly once all tools are installed,,,,,,,,,,,,,,,

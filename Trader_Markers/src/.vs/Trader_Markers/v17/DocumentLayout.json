@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\7DTD-v1.2-cs.mods\\Trader_Markers\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDB8971-57C9-4494-A993-F2B9BD048A01}|Trader_Markers.csproj|d:\\git\\7dtd-v1.2-cs.mods\\trader_markers\\src\\trader_markers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDB8971-57C9-4494-A993-F2B9BD048A01}|Trader_Markers.csproj|solutionrelative:trader_markers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trader_Markers.cs",
+              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\Trader_Markers\\src\\Trader_Markers.cs",
+              "RelativeDocumentMoniker": "Trader_Markers.cs",
+              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\Trader_Markers\\src\\Trader_Markers.cs",
+              "RelativeToolTip": "Trader_Markers.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T06:53:08.529Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

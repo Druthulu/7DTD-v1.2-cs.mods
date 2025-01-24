@@ -1,5 +1,17 @@
 <config>
 	<append xpath="/Sounds">
+		<SoundDataNode name="yeet">
+			<AudioSource name="Sounds/AudioSource_UseAction"/>
+			<Noise ID="4" noise="60" time="3" heat_map_strength="0.1" heat_map_time="30"/>
+			<AudioClip ClipName="#@modfolder:Resources/memeSounds.unity3d?yeet.mp3"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxEntities name="6"/>
+			<MaxRepeatRate value="0.1"/>
+		</SoundDataNode>
+
 		<SoundDataNode name="meme_horns">
 			<AudioSource name="Sounds/AudioSource_SmallHorn"/>
 			<Noise ID="4" noise="60" time="3" heat_map_strength="0.1" heat_map_time="30"/>

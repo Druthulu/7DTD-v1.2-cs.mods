@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="All_Turrets" />
+	<DisplayName value="All Turrets" />
+	<Description value=" More turret types
+		762, 762HP 726AP, 44, 44HP, 44AP, SlugShotgun" />
+	<Author value="McTaco" />
+	<Version value="1.2.27.1" />
+</xml>

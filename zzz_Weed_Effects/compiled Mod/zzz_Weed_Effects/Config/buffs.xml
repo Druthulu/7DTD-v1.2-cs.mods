@@ -1,14 +1,48 @@
 <tacotown>
-	<!-- Append DKs week mod effects to include more fun stuff-->
-	<append xpath="/buffs/buff[name=buffDrugSmokedJoint]">
-		<effect_group>
-			<!-- Add smoke to puffing-->
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_smokePuff" />
-			<!-- play sound , change to coughing or bong later -->
-			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="#@modfolder:Resources/memeSounds.unity3d?smoke_weed.mp3"/>
-			<!-- knock you down -->
-			<triggered_effect trigger="onSelfBuffStart" action="Ragdoll" target="other" duration=".2" force="200"/>
 
+	<!-- Weed Effects buffs-->
+
+	<append xpath="/buffs">
+		<buff name="High" icon="ui_game_symbol_twitch_vision_effects" icon_color="255,175,175">
+			<stack_type value="replace"/>
+			<duration value="120"/>
+			<!-- acid trip -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="1" effect_name="Trippy"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Trippy"/>
 			</effect_group>
+			<!-- funny sounds -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AltSounds" enabled="true"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AltSounds" enabled="false"/>
+			</effect_group>
+			<!-- gruntSkull -->
+			<effect_group>
+				<passive_effect name="CelebrationKill" operation="base_set" value="1" />
+			</effect_group>
+			<!-- clumsy -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="Ragdoll" duration=".5" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="four20" />
+				<requirement name="!IsOnLadder" />
+				<requirement name="EntityHasMovementTag" tags="running"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfFallImpact" action="Ragdoll" duration=".5" />
+				<triggered_effect trigger="onSelfFallImpact" action="PlaySound" sound="four20" />
+				<requirement name="CVarCompare" cvar="_fallSpeed" operation="GTE" value=".05"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="Ragdoll" duration=".5" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="four20" />
+				<requirement name="IsAttachedToEntity" />
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+			</effect_group>
+		</buff>
+
+		<!-- Weed Effects buffs-->
+
 	</append>
 </tacotown>

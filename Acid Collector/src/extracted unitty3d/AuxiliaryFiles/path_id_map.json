@@ -1,0 +1,144 @@
+{
+  "Files": [
+    {
+      "Name": "cab-306e81dc05b7c4041b7d71d5f661264a",
+      "Assets": [
+        {
+          "PathID": 9,
+          "Name": "modular_pipes_pipes.002_Normal",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10,
+          "Name": "modular_pipes_pipes.002_BaseColor",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11,
+          "Name": "GP5Low_Base_Normal",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 12,
+          "Name": "GP5Low_Base_BaseColor",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 13,
+          "Name": "CC_green 1",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 14,
+          "Name": "collectorDew_n",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 15,
+          "Name": "collectorDew",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 16,
+          "Name": "Pipe.078",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 17,
+          "Name": "Pipe.068",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 18,
+          "Name": "Pipe.061",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 19,
+          "Name": "Pipe.057",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 20,
+          "Name": "Pipe.064",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 21,
+          "Name": "Pipe.065",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 22,
+          "Name": "Pipe.059",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 23,
+          "Name": "Pipe.074",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 24,
+          "Name": "GP5_low",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 25,
+          "Name": "Pipe.066",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 26,
+          "Name": "Pipe.067",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 27,
+          "Name": "blocker",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 28,
+          "Name": "collectorDew_LOD0.003",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 29,
+          "Name": "Pipe.069",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 30,
+          "Name": "collectorDew_LOD0.002",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 31,
+          "Name": "valve.001",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 32,
+          "Name": "Pipe.063",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 33,
+          "Name": "Pipe.060",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 34,
+          "Name": "collectorDew_LOD0",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 35,
+          "Name": "collectorDew_LOD0.001",
+          "Type": "Mesh"
+        }
+      ]
+    }
+  ]
+}

@@ -1,45 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|c:\\users\\user\\desktop\\0_tacoanticheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\skymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|c:\\users\\user\\desktop\\0_tacoanticheat\\0_tacoanticheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|c:\\users\\user\\desktop\\0_tacoanticheat\\0_tacoanticheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\gameio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\gameio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|c:\\users\\user\\desktop\\0_tacoanticheat\\0_tacoanticheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\chunkproviderdisc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\chunkproviderdisc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|c:\\users\\user\\desktop\\0_tacoanticheat\\0_tacoanticheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\skymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\skymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\atmosphereeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\atmosphereeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\atmosphereeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\winformconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\winformconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\winformconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\entityplayerlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\entityplayerlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\entityplayerlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\entityplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\entityplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\entityplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\respawntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\respawntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\respawntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\itemactionconnectpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\itemactionconnectpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\itemactionconnectpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\blockpowered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\blockpowered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\blockpowered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\aiairdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\aiairdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\aiairdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\unityengine\\networking\\networkerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\assembly-csharp\\unityengine\\networking\\networkerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{056E6D02-3F5F-40F3-AC5E-C4BB79E458E9}|Assembly-CSharp\\Assembly-CSharp.csproj|solutionrelative:assembly-csharp\\unityengine\\networking\\networkerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,19 +62,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assembly-CSharp\\GameManager.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\GameManager.cs",
+              "RelativeToolTip": "Assembly-CSharp\\GameManager.cs",
+              "ViewState": "AgIAAG4CAAAAAAAAAAAAwHkCAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:05:05.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GameIO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\GameIO.cs",
+              "RelativeDocumentMoniker": "Assembly-CSharp\\GameIO.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\GameIO.cs",
+              "RelativeToolTip": "Assembly-CSharp\\GameIO.cs",
+              "ViewState": "AgIAAPABAAAAAAAAAAAAwPgBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:04:26.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChunkProviderDisc.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\ChunkProviderDisc.cs",
+              "RelativeDocumentMoniker": "Assembly-CSharp\\ChunkProviderDisc.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\ChunkProviderDisc.cs",
+              "RelativeToolTip": "Assembly-CSharp\\ChunkProviderDisc.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAAPUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:04:05.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AtmosphereEffect.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\AtmosphereEffect.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\AtmosphereEffect.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\AtmosphereEffect.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\AtmosphereEffect.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\AtmosphereEffect.cs",
               "RelativeToolTip": "Assembly-CSharp\\AtmosphereEffect.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,35 +117,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SkyManager.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\SkyManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\SkyManager.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\SkyManager.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\SkyManager.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\SkyManager.cs",
               "RelativeToolTip": "Assembly-CSharp\\SkyManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T17:47:15.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "WinFormConnection.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\WinFormConnection.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\WinFormConnection.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\WinFormConnection.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\WinFormConnection.cs [Design]",
-              "RelativeToolTip": "Assembly-CSharp\\WinFormConnection.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\WinFormConnection.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T17:32:51.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "EntityPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\EntityPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\EntityPlayer.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\EntityPlayer.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\EntityPlayer.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\EntityPlayer.cs",
               "RelativeToolTip": "Assembly-CSharp\\EntityPlayer.cs",
               "ViewState": "AQIAAGEDAAAAAAAAAIA9wG0DAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -106,11 +153,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "EntityPlayerLocal.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\EntityPlayerLocal.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\EntityPlayerLocal.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\EntityPlayerLocal.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\EntityPlayerLocal.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\EntityPlayerLocal.cs",
               "RelativeToolTip": "Assembly-CSharp\\EntityPlayerLocal.cs",
               "ViewState": "AQIAAO8JAAAAAAAAAAAhwAIKAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,11 +165,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "RespawnType.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\RespawnType.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\RespawnType.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\RespawnType.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\RespawnType.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\RespawnType.cs",
               "RelativeToolTip": "Assembly-CSharp\\RespawnType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -130,11 +177,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ItemActionConnectPower.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\ItemActionConnectPower.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\ItemActionConnectPower.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\ItemActionConnectPower.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\ItemActionConnectPower.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\ItemActionConnectPower.cs",
               "RelativeToolTip": "Assembly-CSharp\\ItemActionConnectPower.cs",
               "ViewState": "AQIAAAcCAAAAAAAAAAAiwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,11 +189,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "BlockPowered.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\BlockPowered.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\BlockPowered.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\BlockPowered.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\BlockPowered.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\BlockPowered.cs",
               "RelativeToolTip": "Assembly-CSharp\\BlockPowered.cs",
               "ViewState": "AQIAAGYAAAAAAAAAAAAgwHAAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,11 +201,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AIAirDrop.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\AIAirDrop.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\AIAirDrop.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\AIAirDrop.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\AIAirDrop.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\AIAirDrop.cs",
               "RelativeToolTip": "Assembly-CSharp\\AIAirDrop.cs",
               "ViewState": "AQIAADsBAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -166,11 +213,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "NetworkError.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\UnityEngine\\Networking\\NetworkError.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\UnityEngine\\Networking\\NetworkError.cs",
               "RelativeDocumentMoniker": "Assembly-CSharp\\UnityEngine\\Networking\\NetworkError.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\UnityEngine\\Networking\\NetworkError.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\0_TacoAntiCheat\\0_TacoAntiCheat _ sauce\\v2 work\\1.2 b27 orig\\Assembly-CSharp\\UnityEngine\\Networking\\NetworkError.cs",
               "RelativeToolTip": "Assembly-CSharp\\UnityEngine\\Networking\\NetworkError.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

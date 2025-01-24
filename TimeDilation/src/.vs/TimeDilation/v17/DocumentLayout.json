@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\TimeDilation\\Time Dialation source\\",
+  "WorkspaceRootPath": "D:\\git\\7DTD-v1.2-cs.mods\\TimeDilation\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24D926C8-1001-485D-A22A-821474408973}|TimeDilation\\TimeDilation.csproj|c:\\users\\user\\desktop\\timedilation\\time dialation source\\timedilation\\timedilation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24D926C8-1001-485D-A22A-821474408973}|TimeDilation\\TimeDilation.csproj|d:\\git\\7dtd-v1.2-cs.mods\\timedilation\\src\\timedilation\\timedilation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24D926C8-1001-485D-A22A-821474408973}|TimeDilation\\TimeDilation.csproj|solutionrelative:timedilation\\timedilation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TimeDilation.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\TimeDilation\\Time Dialation source\\TimeDilation\\TimeDilation.cs",
+              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\TimeDilation\\src\\TimeDilation\\TimeDilation.cs",
               "RelativeDocumentMoniker": "TimeDilation\\TimeDilation.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\TimeDilation\\Time Dialation source\\TimeDilation\\TimeDilation.cs",
+              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\TimeDilation\\src\\TimeDilation\\TimeDilation.cs",
               "RelativeToolTip": "TimeDilation\\TimeDilation.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAIwOIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAgwOIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T18:02:04.723Z",
               "EditorCaption": ""

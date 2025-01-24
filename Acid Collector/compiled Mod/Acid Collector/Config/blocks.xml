@@ -1,0 +1,64 @@
+<tacotown>
+
+	<!-- Acid Collector -->
+
+	<append xpath="/blocks">
+		<block name="Acid_Collector">
+			<property name="CustomIcon" value="Acid_Collector" />
+			<property name="DescriptionKey" value="Acid_CollectorDesc"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="Class" value="DewCollector"/>
+			<property name="UnlockedBy" value="craftingWorkstations"/>
+			<property name="WorkstationIcon" value="ui_game_symbol_water"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="MFuelBarrelPolymer"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/AcidCollector.unity3d?Acid_Collector.Prefab"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="77"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="RestrictSubmergedPlacement" value="true"/>
+			<property name="AllowedRotations" value="Basic90"/>
+			<property name="Path" value="solid"/>
+			<property name="IsDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OpenSound" value="collector_open"/>
+			<property name="CloseSound" value="collector_close"/>
+			<property name="ConvertSound" value="collector_complete_item"/>
+			<property name="MinConvertTime" value="86400"/> <!-- 21600 Game Seconds = 6 Game Hours -->
+			<property name="MaxConvertTime" value="172800"/> <!-- 36000 Game Seconds = 10 Game Hours -->
+			<property name="ConvertToItem" value="drinkJarRiverWater"/>
+			<property name="ModdedConvertToItem" value="resourceAcid"/>
+			<property name="ModdedConvertSpeed" value="2"/>
+			<property name="ModdedConvertCount" value="2"/>
+			<property name="ModTransformNames" value="1,2,3"/>
+			<property name="ModTypes" value="Speed,Count,Type"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="MaxDamage" value="250"/>
+			<property name="HeatMapStrength" value="2"/>
+			<property name="CanPickup" value="true" param1="Acid_Collector"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property class="RepairItems">
+				<property name="resourceScrapPolymers" value="25"/>
+			</property>
+			<drop event="Harvest" name="resourceScrapPolymers" count="10,15" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceMetalPipe" count="1,3" tag="allHarvest"/>
+			<drop event="Destroy" name="resourceScrapPolymers" count="10,15"/>
+			<property name="DestroyFX" value="blockdestroy_cloth,collector_destroy"/>
+			<property name="SortOrder1" value="B281"/>
+			<property name="SortOrder2" value="0100"/>
+			<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+			<property name="Tags" value="workstationSkill,twitch_workstation"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+			<property name="SoundPickup" value="dewcollector_grab"/>
+			<property name="SoundPlace" value="dewcollector_place"/>
+		</block>
+	</append>
+	
+	<!-- Acid Collector -->
+	
+</tacotown>

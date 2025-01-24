@@ -1,0 +1,220 @@
+<tacotown>
+	<append xpath="/blocks">
+		<!-- Shotgun slug turret-->
+		<block name="shotgunTurretSlug">
+			<property name="Extends" value="autoTurret"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Model" value="Entities/Traps/AutoTurret/autoTurretShotgunPrefab"/>
+			<property name="AmmoItem" value="ammoShotgunSlug"/> 
+			<property name="MaxDistance" value="14"/>
+			<property name="EntityDamage" value="112"/> 
+			<property name="MaxDamage" value="9999"/>
+			<property name="BlockDamage" value="0"/>
+			<property name="RaySpread" value="1.0"/>
+			<property name="RayCount" value="1"/>
+			<property name="BurstRoundCount" value="4"/>
+			<property name="BurstFireRate" value="0.61"/>
+			<property name="CooldownTime" value="1"/>
+			<property name="OvershootTime" value="0.8"/>
+			<property name="FallAsleepTime" value="10"/>
+			<property name="WakeUpTime" value="0.5"/>
+			<property name="ParticlesMuzzleFire" value="nozzleflash_shotgun"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+			<property name="DamageBonus.head" value="3"/>
+			<property name="FireSound" value="pump_shotgun_fire"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="TraderStageTemplate" value="electricTier3"/>
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+			<!--<property name="UnlockedBy" value="craftingTraps"/>-->
+		</block>
+		<!-- 762 turrets-->
+		<block name="autoTurret_726">
+			<property name="Extends" value="autoTurret"/>
+			<property name="MaxDamage" value="9999"/>
+
+			<property name="AmmoItem" value="ammo762mmBulletBall"/> <!-- does not use the damage value -->
+			<property name="FireSound" value="ak47_fire"/>
+			<property name="ParticlesMuzzleFire" value="gunfire_AK47"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+
+			<property name="EntityDamage" value="47"/> <!-- does not use range falloff for damage -->
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="MaxDistance" value="30"/>
+			<property name="RaySpread" value="2.6"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+			<property name="BurstRoundCount" value="15"/>
+			<property name="BurstFireRate" value="0.15"/>
+			<property name="CooldownTime" value="2"/>
+			<property name="OvershootTime" value="0.4"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="BlockDamage" value="0"/>
+			<property name="SortOrder2" value="0023"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+		</block>
+
+		<block name="autoTurret_726_hp">
+			<property name="Extends" value="autoTurret"/>
+			<property name="MaxDamage" value="9999"/>
+			
+			<property name="AmmoItem" value="ammo762mmBulletHP"/> <!-- does not use the damage value -->
+			<property name="FireSound" value="ak47_fire"/>
+			<property name="ParticlesMuzzleFire" value="gunfire_AK47"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+			
+			<property name="EntityDamage" value="52"/> <!-- does not use range falloff for damage -->
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="MaxDistance" value="30"/>
+			<property name="RaySpread" value="2.8"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+			<property name="BurstRoundCount" value="15"/>
+			<property name="BurstFireRate" value="0.15"/>
+			<property name="CooldownTime" value="2"/>
+			<property name="OvershootTime" value="0.4"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="SortOrder2" value="0023"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+		</block>
+
+		<block name="autoTurret_726_ap">
+			<property name="Extends" value="autoTurret"/>
+			<property name="MaxDamage" value="9999"/>
+			
+			<property name="AmmoItem" value="ammo762mmBulletAP"/> <!-- does not use the damage value -->
+			<property name="FireSound" value="ak47_fire"/>
+			<property name="ParticlesMuzzleFire" value="gunfire_AK47"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+
+			<property name="EntityDamage" value="57"/> <!-- does not use range falloff for damage -->
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="MaxDistance" value="30"/>
+			<property name="RaySpread" value="2.6"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+			<property name="BurstRoundCount" value="15"/>
+			<property name="BurstFireRate" value="0.15"/>
+			<property name="CooldownTime" value="2"/>
+			<property name="OvershootTime" value="0.4"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="SortOrder2" value="0023"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+		</block>
+
+		<!-- 9mm turrets -->
+		<block name="autoTurret_9mm_hp">
+			<property name="Extends" value="autoTurret"/>
+			<property name="MaxDamage" value="9999"/>
+			
+			<property name="AmmoItem" value="ammo9mmBulletHP"/> <!-- does not use the damage value -->
+			<property name="FireSound" value="Pistol_Fire"/>
+			<property name="ParticlesMuzzleFire" value="gunfire_pistol"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+			
+			<property name="EntityDamage" value="25"/> <!-- does not use range falloff for damage -->
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="MaxDistance" value="50"/>
+			<property name="RaySpread" value="2.8"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+			<property name="BurstRoundCount" value="10"/>
+			<property name="BurstFireRate" value="0.15"/>
+			<property name="CooldownTime" value="2"/>
+			<property name="OvershootTime" value="0.4"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="SortOrder2" value="0023"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+		</block>
+
+		<block name="autoTurret_9mm_ap">
+			<property name="Extends" value="autoTurret"/>
+			<property name="MaxDamage" value="9999"/>
+			
+			<property name="AmmoItem" value="ammoBulletAP"/> <!-- does not use the damage value -->
+			<property name="FireSound" value="smg_fire"/>
+			<property name="ParticlesMuzzleFire" value="gunfire_pistol"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+
+			<property name="EntityDamage" value="38"/> <!-- does not use range falloff for damage -->
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="MaxDistance" value="65"/>
+			<property name="RaySpread" value="1.35"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+			<property name="BurstRoundCount" value="10"/>
+			<property name="BurstFireRate" value="0.15"/>
+			<property name="CooldownTime" value="2"/>
+			<property name="OvershootTime" value="0.4"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="SortOrder2" value="0023"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+		</block>
+
+		<!-- 44 turrets-->
+		<block name="autoTurret_44">
+			<property name="Extends" value="autoTurret"/>
+			<property name="MaxDamage" value="9999"/>
+			
+			<property name="AmmoItem" value="ammo44MagnumBulletBall"/> <!-- does not use the damage value -->
+			<property name="FireSound" value="44magnum_fire"/>
+			<property name="ParticlesMuzzleFire" value="gunfire_magnum"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+			
+			<property name="EntityDamage" value="70"/> <!-- does not use range falloff for damage -->
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="MaxDistance" value="70"/>
+			<property name="RaySpread" value="2.8"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+			<property name="BurstRoundCount" value="5"/>
+			<property name="BurstFireRate" value="0.15"/>
+			<property name="CooldownTime" value="2"/>
+			<property name="OvershootTime" value="0.4"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="SortOrder2" value="0023"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+		</block>
+
+		<block name="autoTurret_44_hp">
+			<property name="Extends" value="autoTurret"/>
+			<property name="MaxDamage" value="9999"/>
+			
+			<property name="AmmoItem" value="ammo44MagnumBulletHP"/> <!-- does not use the damage value -->
+			<property name="FireSound" value="44magnum_fire"/>
+			<property name="ParticlesMuzzleFire" value="gunfire_magnum"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+
+			<property name="EntityDamage" value="77"/> <!-- does not use range falloff for damage -->
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="MaxDistance" value="30"/>
+			<property name="RaySpread" value="2.6"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+			<property name="BurstRoundCount" value="5"/>
+			<property name="BurstFireRate" value="0.15"/>
+			<property name="CooldownTime" value="2"/>
+			<property name="OvershootTime" value="0.4"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="SortOrder2" value="0023"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+		</block>
+
+		<block name="autoTurret_44_ap">
+			<property name="Extends" value="autoTurret"/>
+			<property name="MaxDamage" value="9999"/>
+			
+			<property name="AmmoItem" value="ammo44MagnumBulletAP"/> <!-- does not use the damage value -->
+			<property name="FireSound" value="44magnum_fire"/>
+			<property name="ParticlesMuzzleFire" value="gunfire_magnum"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+
+			<property name="EntityDamage" value="84"/> <!-- does not use range falloff for damage -->
+			<property name="CustomIcon" value="shotgunTurret"/>
+			<property name="MaxDistance" value="30"/>
+			<property name="RaySpread" value="2.6"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+			<property name="BurstRoundCount" value="5"/>
+			<property name="BurstFireRate" value="0.15"/>
+			<property name="CooldownTime" value="2"/>
+			<property name="OvershootTime" value="0.4"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="SortOrder2" value="0023"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="OnlySimpleRotations" value="false"/>
+		</block>
+	</append>
+</tacotown>

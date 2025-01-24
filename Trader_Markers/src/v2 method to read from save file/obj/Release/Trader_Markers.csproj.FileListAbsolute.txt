@@ -1,0 +1,264 @@
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\obj\Release\Trader_Markers.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\obj\Release\Trader_Markers.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Trader_Markers.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Trader_Markers.pdb
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\0Harmony.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Assembly-CSharp-firstpass.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Assembly-CSharp.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\InControl.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\LogLibrary.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\NGUI.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\SpaceWizards.HttpListener.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\System.ValueTuple.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Addressables.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.AnimationModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.AssetBundleModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.AudioModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.CoreModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Utf8Json.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\WebServer.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Mono.Cecil.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\MonoMod.Backports.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\MonoMod.Utils.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\MonoMod.RuntimeDetour.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\MonoMod.Core.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Mono.Cecil.Mdb.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Mono.Cecil.Pdb.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Mono.Cecil.Rocks.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.ParticleSystemModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\GameSparksRT.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\GameSparks.Api.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.TerrainModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.PhysicsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityWebRequestModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Postprocessing.Runtime.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UI.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Animation.Rigging.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.TextRenderingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.IMGUIModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\HBAO.Runtime.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Noemax.GZip.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.VehiclesModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.ClothModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\AstarPathfindingProject.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Profiling.Core.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\libnoise.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Collections.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Mathematics.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Burst.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Backtrace.Unity.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.VideoModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\NCalc.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\EOS.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.TextMeshPro.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UIModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.ResourceManager.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\FidelityFX.FSR.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\ScreenSpaceReflections.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.WindModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\MemoryPack.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\zxing.unity.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Microsoft.GDK.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\com.rlabrecque.steamworks.net.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\GameSparks.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.InputLegacyModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.ImageConversionModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.StreamingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.JSONSerializeModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\enum2int.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\netstandard.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.Physics2DModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.DSPGraphModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityCurlModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.ContentLoadModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.PropertiesModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.TLSModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.AndroidJNIModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.AccessibilityModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityConnectModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.AIModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.PerformanceReportingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.SharedInternalsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.ClusterInputModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.ClusterRendererModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.CrashReportingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.TilemapModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.VFXModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.VRModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.GridModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.SubsystemsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.LocalizationModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.NVIDIAModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.DirectorModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.VirtualTexturingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.ScreenCaptureModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.GameCenterModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.SpriteMaskModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.SpriteShapeModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.UIElementsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.XRModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.ARModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\UnityEngine.InputModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\MonoMod.ILHelpers.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\MonoMod.Iced.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\BouncyCastle_GameSparks.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Pathfinding.ClipperLib.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Pathfinding.Poly2Tri.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Unity.Burst.Unsafe.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Antlr3.Runtime.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\SpaceWizards.HttpListener.pdb
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\System.ValueTuple.xml
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\Utf8Json.xml
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\bin\Release\WebServer.pdb
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\obj\Release\Trader_Markers.dll
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\obj\Release\Trader_Markers.pdb
+C:\Users\USER\Desktop\Trader_Markers\src\Trader_Markers\obj\Release\Trader_M.2B91FFDE.Up2Date
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Trader_Markers.dll.config
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Trader_Markers.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Trader_Markers.pdb
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\0Harmony.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Assembly-CSharp-firstpass.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Assembly-CSharp.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\InControl.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\LogLibrary.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\NGUI.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\SpaceWizards.HttpListener.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\System.ValueTuple.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Addressables.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.AnimationModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.AssetBundleModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.AudioModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.CoreModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Utf8Json.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\WebServer.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Mono.Cecil.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\MonoMod.Backports.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\MonoMod.Utils.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\MonoMod.RuntimeDetour.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\MonoMod.Core.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Mono.Cecil.Mdb.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Mono.Cecil.Pdb.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Mono.Cecil.Rocks.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.ParticleSystemModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\GameSparksRT.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\GameSparks.Api.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.TerrainModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.PhysicsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityWebRequestModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Postprocessing.Runtime.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UI.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Animation.Rigging.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.TextRenderingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.IMGUIModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\HBAO.Runtime.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Noemax.GZip.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.VehiclesModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.ClothModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\AstarPathfindingProject.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Profiling.Core.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\libnoise.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Collections.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Mathematics.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Burst.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Backtrace.Unity.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.VideoModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\NCalc.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\EOS.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.TextMeshPro.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UIModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.ResourceManager.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\FidelityFX.FSR.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\ScreenSpaceReflections.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.WindModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\MemoryPack.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\zxing.unity.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Microsoft.GDK.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\com.rlabrecque.steamworks.net.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\GameSparks.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.InputLegacyModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.ImageConversionModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.StreamingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.JSONSerializeModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\enum2int.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\netstandard.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.Physics2DModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.DSPGraphModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityCurlModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.ContentLoadModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.PropertiesModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.TLSModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.AndroidJNIModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.AccessibilityModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityConnectModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.AIModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityAnalyticsCommonModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.PerformanceReportingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.SharedInternalsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.ClusterInputModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.ClusterRendererModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.CrashReportingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.TilemapModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.VFXModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.VRModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.GridModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.SubsystemsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.LocalizationModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.NVIDIAModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.DirectorModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.VirtualTexturingModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.ScreenCaptureModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.GameCenterModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.SpriteMaskModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.SpriteShapeModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.UIElementsModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.XRModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.ARModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\UnityEngine.InputModule.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\MonoMod.ILHelpers.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\MonoMod.Iced.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\BouncyCastle_GameSparks.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Pathfinding.Ionic.Zip.Reduced.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Pathfinding.ClipperLib.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Pathfinding.Poly2Tri.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Collections.LowLevel.ILSupport.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Unity.Burst.Unsafe.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Antlr3.Runtime.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\SpaceWizards.HttpListener.pdb
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\System.ValueTuple.xml
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\Utf8Json.xml
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\bin\Release\WebServer.pdb
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\obj\Release\Trader_Markers.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\obj\Release\Trader_Markers.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\obj\Release\Trader_M.2B91FFDE.Up2Date
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\obj\Release\Trader_Markers.dll
+C:\Users\USER\Desktop\Trader_Markers\src\v2 method to read from save file\obj\Release\Trader_Markers.pdb

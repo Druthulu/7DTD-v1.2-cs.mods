@@ -1,0 +1,29 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+shotgunTurretSlug,blocks,Block,,,Slug Shotgun Turret,,
+shotgunTurretSlugDesc,blocks,Block,,,Takes green slugs,,
+
+autoTurret_726,blocks,Block,,,Turret 762,,
+autoTurret_726Desc,blocks,Block,,,Takes regular 762 ammo,,
+
+autoTurret_726_hp,blocks,Block,,,Turret 762 HP Hi-Power,,
+autoTurret_726_hpDesc,blocks,Block,,,Takes 762 HP ammo,,
+
+autoTurret_726_ap,blocks,Block,,,Turret 762 AP Armor-Piercing,,
+autoTurret_726_apDesc,blocks,Block,,,Takes 762 AP ammo,,
+
+autoTurret_9mm_hp,blocks,Block,,,Turret 9mm HP Hi-Power,,
+autoTurret_9mm_hpDesc,blocks,Block,,,Takes 9mm HP ammo,,
+
+autoTurret_9mm_ap,blocks,Block,,,Turret 9mm AP Armor-Piercing,,
+autoTurret_9mm_apDesc,blocks,Block,,,Takes 9mm AP ammo,,
+
+autoTurret_44,blocks,Block,,,Turret 44,,
+autoTurret_44Desc,blocks,Block,,,Takes regular 44 ammo,,
+
+autoTurret_44_hp,blocks,Block,,,Turret 44 HP Hi-Power,,
+autoTurret_44_hpDesc,blocks,Block,,,Takes 44 HP ammo,,
+
+autoTurret_44_ap,blocks,Block,,,Turret 44 AP Armor-Piercing,,
+autoTurret_44_apDesc,blocks,Block,,,Takes 44 AP ammo,,
+

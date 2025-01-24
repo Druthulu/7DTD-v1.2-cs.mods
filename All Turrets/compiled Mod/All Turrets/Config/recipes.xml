@@ -1,0 +1,108 @@
+<tacotown>
+  	<append xpath="/recipes">
+
+		<!-- All Turrets recipies -->
+
+		<recipe name="shotgunTurretSlug" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunShotgunT1DoubleBarrelParts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunShotgunT1DoubleBarrelParts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="autoTurret_726" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunMGT1AK47Parts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunMGT1AK47Parts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="autoTurret_726_hp" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunMGT1AK47Parts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunMGT1AK47Parts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="autoTurret_726_ap" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunMGT1AK47Parts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunMGT1AK47Parts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="autoTurret_9mm_hp" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunHandgunT1PistolParts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="autoTurret_9mm_ap" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunHandgunT1PistolParts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="autoTurret_44" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunHandgunT1PistolParts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="autoTurret_44_hp" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunHandgunT1PistolParts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="autoTurret_44_ap" count="1" craft_time="300" craft_area="workbench" > 
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="69"/>
+			<ingredient name="resourceOil" count="7"/>
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="gunHandgunT1PistolParts" count="7"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers"/>
+			</effect_group>
+		</recipe>
+
+		<!-- All Turrets recipies -->
+		
+	</append>
+</tacotown>

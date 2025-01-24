@@ -1,0 +1,94 @@
+<tacotown>
+	<!-- Append DKs week mod effects to include more fun stuff-->
+	<append xpath="/items/item[@name='Joint Rolled']">
+
+		<effect_group name="blazefireblaze" tiered="false">
+			<!-- light herb-->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" parent_transform="RightHand" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveParticleEffectFromEntity" particle="p_candle_firstperson" parent_transform="RightHand" />
+			
+			<!-- Add smoke to puffing-->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="RemoveParticleEffectFromEntity" particle="p_twitch_smokePuff" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AttachParticleEffectToEntity" particle="p_twitch_smokePuff" />
+			
+			<!-- play sound , change to coughing or bong later -->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="PlaySound" sound="four20"/>
+			<!-- knock you down -->
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="Ragdoll" target="self" duration=".5" force="100" />
+			
+			<!-- stoned effects-->
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="High"/>
+		</effect_group>
+
+	</append>
+	<append xpath="/items/item[@name='Joint Rolled With Weed And Oil']">
+
+		<effect_group name="blazefireblaze" tiered="false">
+			<!-- light herb-->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" parent_transform="RightHand" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveParticleEffectFromEntity" particle="p_candle_firstperson" parent_transform="RightHand" />
+			
+			<!-- Add smoke to puffing-->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="RemoveParticleEffectFromEntity" particle="p_twitch_smokePuff" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AttachParticleEffectToEntity" particle="p_twitch_smokePuff" />
+			
+			<!-- play sound , change to coughing or bong later -->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="PlaySound" sound="four20"/>
+			<!-- knock you down -->
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="Ragdoll" target="self" duration=".5" force="200" />
+			
+			<!-- stoned effects-->
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="High"/>
+		</effect_group>
+
+	</append>
+	
+	<append xpath="/items/item[@name='Bong Filled']">
+
+		<effect_group name="blazefireblaze" tiered="false">
+			<!-- light herb-->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" parent_transform="RightHand" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveParticleEffectFromEntity" particle="p_candle_firstperson" parent_transform="RightHand" />
+			
+			<!-- Add smoke to puffing-->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="RemoveParticleEffectFromEntity" particle="p_twitch_smokePuff" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AttachParticleEffectToEntity" particle="p_twitch_smokePuff" />
+			
+			<!-- play sound , change to coughing or bong later -->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="PlaySound" sound="four20"/>
+			<!-- knock you down -->
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="Ragdoll" target="self" duration=".5" force="300" />
+
+			<!-- stoned effects-->
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="High"/>
+		</effect_group>
+
+	</append>
+
+	<append xpath="/items/item[@name='Oil Rig Filled']">
+
+		<effect_group name="blazefireblaze" tiered="false">
+			<!-- light herb-->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="AttachParticleEffectToEntity" particle="p_candle_firstperson" parent_transform="RightHand" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveParticleEffectFromEntity" particle="p_candle_firstperson" parent_transform="RightHand" />
+			
+			<!-- Add smoke to puffing-->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="RemoveParticleEffectFromEntity" particle="p_twitch_smokePuff" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AttachParticleEffectToEntity" particle="p_twitch_smokePuff" />
+			
+			<!-- play sound , change to coughing or bong later -->
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="PlaySound" sound="four20"/>
+			<!-- knock you down -->
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="Ragdoll" target="self" duration=".5" force="400" />
+			
+			<!-- stoned effects-->
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="High"/>
+		</effect_group>
+
+	</append>
+
+	<!-- remove wait time on DKs weed usage-->
+	<remove xpath="/items/item/property[@class='Action0']/requirement[@buff='buffDrugSmokedJoint']"></remove>
+	<remove xpath="/items/item/property[@class='Action0']/requirement[@buff='buffDrugRippedBong']"></remove>
+
+</tacotown>

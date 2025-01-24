@@ -1,0 +1,15 @@
+﻿<configs>
+
+	<!-- Acid Collector -->
+
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="acidcollector" left_panel_valign_top="false" controller="XUiC_DewCollectorWindowGroup" close_compass_on_open="true" defaultSelected="0">
+			<window name="windowAcidCollector"/>
+			<window name="windowAcidCollectorMods" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+	</append>
+
+	<!-- Acid Collector -->
+
+</configs>

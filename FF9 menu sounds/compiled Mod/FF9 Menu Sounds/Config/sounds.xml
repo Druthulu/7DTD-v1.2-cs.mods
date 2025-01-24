@@ -1,0 +1,31 @@
+	<config>
+		<!-- FF9 Menu Sounds -->
+		<set xpath="/Sounds/SoundDataNode[@name='ui_menu_back']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_menu_click']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_menu_start']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_hover']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_skill_purchase']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_tab']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_menu_cycle']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_challenge_complete']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_menu_cycle']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_menu_cycle']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_menu_cycle']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+
+		<set xpath="/Sounds/SoundDataNode[@name='ui_menu_cycle']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?select.wav</set>
+		<!-- FF9 Menu Sounds -->
+		<!-- GTA death Sounds -->
+		<set xpath="/Sounds/SoundDataNode[@name='player_death_stinger']/AudioClip/@ClipName">#@modfolder:Resources/memeSounds.unity3d?wasted.mp3</set>
+		<!-- GTA death Sounds -->
+		
+</config>

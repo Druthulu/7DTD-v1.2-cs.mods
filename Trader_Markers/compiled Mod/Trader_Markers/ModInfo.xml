@@ -2,8 +2,8 @@
 <xml>
 	<Name value="Trader_Markers" />
 	<DisplayName value="Trader Markers" />
-	<Description value="Scans world's prefabs.xml file and marks all traders on the map. Must copy here: 'Trader_Markers\prefabs.xml'" />
-	<Author value="McTaco. Xamples_mod by Catalysm and Alloc" />
+	<Description value="Scans world's prefabs.xml file and marks all traders on the map. Scans map files to only show known traders, option to show all in settings.xml" />
+	<Author value="McTaco for all trader functionalty - Xamples_MarkersMod by Catalysm and Alloc" />
 	<Version value="1.2.27.2" />
 	<Website value="https://i.imgur.com/DQRZpvF.gif" />
 </xml>
