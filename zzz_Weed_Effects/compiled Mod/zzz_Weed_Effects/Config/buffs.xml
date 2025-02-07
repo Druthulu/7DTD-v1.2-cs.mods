@@ -40,6 +40,9 @@
 				<requirement name="IsAttachedToEntity" />
 				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
 			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="forge_item_complete"/>
+			</effect_group>
 		</buff>
 
 		<!-- Weed Effects buffs-->

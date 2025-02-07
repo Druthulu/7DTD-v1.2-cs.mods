@@ -1,0 +1,41 @@
+<tacoTown>
+
+	<!-- FEATURES -->
+		<!-- 
+			Decide which features to use. All enabled by default
+
+			true = randomize sizes
+			false = dont randomize sizes
+
+		-->
+
+		<randomZombieSizes>true</randomZombieSizes>
+
+		<randomAnimalSizes>true</randomAnimalSizes>
+		
+
+	<!-- Randomize sizes -->
+		<!-- 
+			Decide Min and Max to use.
+
+			use percentage decimals, where 1.0 means regular size
+			0.5 means half size, and 2.0 means double size
+			Defaults: 0.5, 1.5
+
+		-->
+
+
+		<!-- Zombie Min/Max size -->
+		<zombieMin>0.5</zombieMin>
+
+		<zombieMax>1.5</zombieMax>
+
+
+		<!-- Animal Min/Max size -->
+		<animalMin>0.5</animalMin>
+
+		<animalMax>1.5</animalMax>
+
+
+	<!-- https://i.imgur.com/DQRZpvF.gif -->
+</tacoTown>

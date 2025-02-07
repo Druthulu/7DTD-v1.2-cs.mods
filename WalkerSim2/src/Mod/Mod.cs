@@ -296,6 +296,8 @@ namespace WalkerSim
                 var entityId = player.entityId;
                 if (!simulation.HasPlayer(entityId))
                 {
+                    //var gs = player.gameStage;
+                    //Log.Out("TACO SIM player gamestage is: {0}",test);
                     simulation.AddPlayer(player.entityId, VectorUtils.ToSim(player.position), viewRadius);
                 }
             }

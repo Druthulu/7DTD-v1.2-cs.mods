@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿using GameEvent.SequenceActions;
+using System.Collections.Generic;
+using System.Globalization;
+using UnityEngine;
+using static vp_Timer;
 
 namespace WalkerSim
 {
@@ -214,9 +218,47 @@ namespace WalkerSim
                 Logging.Debug("Using previous health: {0}", agent.Health);
                 spawnedAgent.Health = agent.Health;
             }
-
+            
             var destPos = worldPos + (rot * 80);
             spawnedAgent.SetInvestigatePosition(destPos, 6000, false);
+
+
+            // taco tests
+
+            // restore scale
+
+            if (agent.Scale == -1f)
+            {
+                //agent.Scale = 0.5f;
+                // generate new scale
+                float[] scaleArr = new float[] { 0.8f, 0.9f, 1f, 1f, 1f, 1.1f, 1.2f, 1.3f, 1.4f, 1.5f };
+                int randy = new System.Random().Next(0, scaleArr.Length);
+                float randyScale = scaleArr[randy];
+                agent.Scale = randyScale;
+            }
+            //Debug
+            // spawnedAgent.SetupDebugNameHUD($"{spawnedAgent.EntityName} {agent.Scale}");
+
+            //Log.Out($" Entity: {spawnedAgent.EntityName} {agent.Scale}x Health was: {spawnedAgent.Health}, health now: {(int)((float)spawnedAgent.Health * agent.Scale)}");
+
+            // this works
+            spawnedAgent.gameObject.transform.localScale = new UnityEngine.Vector3(agent.Scale, agent.Scale, agent.Scale);
+
+            //spawnedAgent.Stats.Health.MaxModifier = ((float)spawnedAgent.Health * agent.Scale);
+            //spawnedAgent.Stats.Health.m_maxModifier = agent.Scale;
+            //spawnedAgent.Stats.Health.m_baseMax = (float)spawnedAgent.Health * agent.Scale;
+            //spawnedAgent.Stats.Health.m_value = (float)spawnedAgent.Health * agent.Scale;
+            //spawnedAgent.Health = (int)((float)tempHealth * agent.Scale);
+
+
+
+            //debug 2
+            //Log.Out($" Entity: {spawnedAgent.EntityName} {agent.Scale}x Health is: {spawnedAgent.Health}");
+
+
+            //spawnedAgent.moveSpeed = spawnedAgent.moveSpeed * agent.Scale;
+            //spawnedAgent.woundedStrength *= (int)agent.Scale;
+            // end of taco tests
 
             world.SpawnEntityInWorld(spawnedAgent);
 
@@ -225,6 +267,8 @@ namespace WalkerSim
             agent.EntityClassId = entityClassId;
             agent.CurrentState = Agent.State.Active;
             agent.Health = spawnedAgent.Health;
+            agent.Scale = spawnedAgent.gameObject.transform.localScale.x;
+            //agent.Scale = spawnedAgent.gameObject.transform.localScale.x;
 
             if (simulation.Config.Debug.LogSpawnDespawn)
             {

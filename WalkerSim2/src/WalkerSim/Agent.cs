@@ -19,6 +19,7 @@
         public int Health = -1;
         public State CurrentState = State.Dead;
         public uint LastUpdateTick = 0;
+        public float Scale = -1f;
 
         public Agent()
         {

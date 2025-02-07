@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\randomzombiesize\\randomsizesza_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\randomsizesza_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\randomzombiesize\\randomsizehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\randomsizehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|d:\\git\\7dtd-v1.2-cs.mods\\randomsizes-animal-zombies\\new combo mod\\src\\randomzombiesize\\netpkgrandomsizesza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrandomsizesza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|d:\\git\\7dtd-v1.2-cs.mods\\randomsizes-animal-zombies\\new combo mod\\src\\randomzombiesize\\logout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\logout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogOut.cs",
+              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\LogOut.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\LogOut.cs",
+              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\LogOut.cs",
+              "RelativeToolTip": "RandomZombieSize\\LogOut.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T17:19:16.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetPkgRandomSizesZA.cs",
+              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\NetPkgRandomSizesZA.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRandomSizesZA.cs",
+              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\NetPkgRandomSizesZA.cs",
+              "RelativeToolTip": "RandomZombieSize\\NetPkgRandomSizesZA.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwEoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T04:42:31.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnityAliveCopyPropertiesFromEntityClass.cs",
+              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "RelativeToolTip": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwFcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T04:03:20.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RandomSizeHelper.cs",
+              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\RandomSizeHelper.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\RandomSizeHelper.cs",
+              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\RandomSizeHelper.cs",
+              "RelativeToolTip": "RandomZombieSize\\RandomSizeHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:17:07.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RandomSizesZA_Init.cs",
+              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\RandomSizesZA_Init.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\RandomSizesZA_Init.cs",
+              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\RandomZombieSize\\RandomSizesZA_Init.cs",
+              "RelativeToolTip": "RandomZombieSize\\RandomSizesZA_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T04:21:48.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

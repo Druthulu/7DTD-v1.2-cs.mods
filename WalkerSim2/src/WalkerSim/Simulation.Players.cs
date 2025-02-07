@@ -10,6 +10,7 @@ namespace WalkerSim
             public int EntityId;
             public int ViewRadius;
             public bool IsAlive;
+            //public int Gamestage;
         }
 
         public IEnumerable<KeyValuePair<int, Player>> Players
@@ -29,6 +30,7 @@ namespace WalkerSim
             player.Position = pos;
             player.ViewRadius = viewRadius;
             player.IsAlive = true;
+            //player.Gamestage = gs;
 
             _state.Players.TryAdd(entityId, player);
 
@@ -49,6 +51,7 @@ namespace WalkerSim
             {
                 player.Position = newPos;
                 player.IsAlive = isAlive;
+                //player.Gamestage = gs;
             }
         }
 

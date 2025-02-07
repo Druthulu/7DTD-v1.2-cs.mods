@@ -1,0 +1,9 @@
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Build\Debug\Tests\WalkerSimSchema.xsd
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Build\Debug\Tests\WalkerSim.xml
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Build\Debug\Tests\Tests.dll
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Build\Debug\Tests\Tests.pdb
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Tests\obj\Debug\Tests.csproj.AssemblyReference.cache
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Tests\obj\Debug\Tests.csproj.Up2Date
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Tests\obj\Debug\Tests.dll
+D:\git\7DTD-v1.2-cs.mods\WalkerSim2\src\Tests\obj\Debug\Tests.pdb
